@@ -2,14 +2,15 @@
 
 ## Connection
 
-- **Account URL**: `https://OHHGHHL-ZM06890.snowflakecomputing.com`
+- **Account URL**: `https://<ACCOUNT_ID>.snowflakecomputing.com`
 - **Login**: your email address
 - **Password**: communicated on-site
 
 You can connect via:
+
 - **Snowsight** — Snowflake's web UI (recommended for getting started). Go to the account URL and log in.
-- **SnowSQL** — Snowflake's CLI. [Install guide](https://docs.snowflake.com/en/user-guide/snowsql-install-config).
-- **Python** — `snowflake-connector-python` or `sqlalchemy-snowflake`.
+- **Snow CLI** — Snowflake's command-line tool. See [cli.md](cli.md) for setup and usage.
+- **Python** — `snowflake-connector-python` or `snowflake-sqlalchemy`. See [cli.md](cli.md#python) for examples.
 - **Any JDBC/ODBC client** — DBeaver, DataGrip, etc.
 
 ## Your Team Resources
@@ -26,8 +27,8 @@ Each team has three warehouses. A warehouse is Snowflake's compute engine — it
 | Warehouse | Size | Credits/hr | Use for |
 |-----------|------|------------|---------|
 | `WH_TEAM_<N>_XS` | X-Small | 1 | Default — exploration, T1/T2 queries, prototyping |
-| `WH_TEAM_<N>_S` | Small (2× XS) | 2 | Scanning tens of millions of rows, T3 queries |
-| `WH_TEAM_<N>_M` | Medium (4× XS) | 4 | Large queries on T3/T4, complex joins, heavy aggregations |
+| `WH_TEAM_<N>_S` | Small (2x XS) | 2 | Scanning tens of millions of rows, T3 queries |
+| `WH_TEAM_<N>_M` | Medium (4x XS) | 4 | Large queries on T3/T4, complex joins, heavy aggregations |
 
 **How billing works:** You're only charged while a warehouse is actively running a query. All warehouses auto-suspend after 60 seconds of idle time and auto-resume when you run your next query. There is no charge while suspended.
 

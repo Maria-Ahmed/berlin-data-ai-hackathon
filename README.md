@@ -25,7 +25,7 @@ How to connect to each platform.
 
 | Doc | Platform |
 |-----|----------|
-| [access/snowflake.md](access/snowflake.md) | Snowflake — credentials, warehouses, quick start |
+| [access/snowflake/](access/snowflake/) | Snowflake — credentials, warehouses, CLI setup, programmatic access |
 | [access/lightdash.md](access/lightdash.md) | Lightdash — BI dashboards and visualisation |
 | [access/collate.md](access/collate.md) | Collate — data catalog |
 

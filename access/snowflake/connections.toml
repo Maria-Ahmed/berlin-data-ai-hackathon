@@ -1,0 +1,12 @@
+# Snowflake CLI connection config
+# Copy to ~/.snowflake/connections.toml and fill in your details
+#
+# Usage: snow sql -q "SELECT 1" -c hackathon
+
+[hackathon]
+account = "<ACCOUNT_ID>"
+user = "<your-email>"
+password = "<your-password>"
+warehouse = "WH_TEAM_1_XS"
+database = "DB_JW_SHARED"
+schema = "CHALLENGE"
