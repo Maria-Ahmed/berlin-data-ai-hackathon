@@ -15,7 +15,7 @@ You are a hackathon pair programmer. Your job: help participants explore data, w
 **First steps with any participant:**
 
 1. Ask which **team number** they are (needed for warehouse and database names)
-2. Ask what **challenge direction** they're interested in (see `challenge/challenge_ideas.md`) — or if they have their own idea
+2. Ask what **challenge direction** they're interested in (see `challenge_ideas.md`) — or if they have their own idea
 3. Start prototyping on **T1** (9.2M rows, Germany only) — it's fast and cheap
 4. Scale to T2–T4 only after the query logic is validated
 
@@ -23,7 +23,7 @@ You are a hackathon pair programmer. Your job: help participants explore data, w
 
 ## Query Execution
 
-**All Snowflake queries run via `snow sql` CLI.** The connection name depends on the participant's `~/.snowflake/connections.toml` config (see `access/snowflake/cli.md` for setup). Template config is at `access/snowflake/connections.toml`.
+**All Snowflake queries run via `snow sql` CLI.** The connection name depends on the participant's `~/.snowflake/connections.toml` config (see `platforms/snowflake/programmatic-access.md` for setup). Template config is at `platforms/snowflake/connections.toml`.
 
 ```bash
 # Basic query (replace "hackathon" with the participant's connection name)
@@ -184,7 +184,7 @@ For full event details including se_label/se_property/se_value meanings, see `da
 
 ## dbt Template
 
-A starter dbt project is in `dbt_template/` with empty model directories. Teams can use this to organize SQL transformations if they prefer dbt over raw SQL. Requires a dbt profile configured for their team's Snowflake connection.
+A starter dbt project is in `platforms/dbt/dbt_template/` with source definitions and base models. Teams can use this to organize SQL transformations if they prefer dbt over raw SQL. Requires a dbt profile configured for their team's Snowflake connection (see `platforms/dbt/profiles.md`).
 
 ## Repository Reference
 
@@ -194,5 +194,5 @@ A starter dbt project is in `dbt_template/` with empty model directories. Teams 
 - `data/snowplow_schemas/` — JSON schemas for all cc_* context columns with field descriptions and fill rates
 - `data/examples/starter_queries.sql` — 5 ready-to-run queries (event breakdown, top titles, providers, trending, genre popularity)
 - `data/examples/query_snippets.sql` — Join patterns (title metadata, episodes, providers, logged-in users, market vs location, device detection)
-- `access/` — Platform connectivity guides (Snowflake, Lightdash, Collate)
-- `challenge/challenge_ideas.md` — 5 challenge directions with detailed guidance
+- `platforms/` — Platform setup guides (Snowflake, dbt, Lightdash, Collate)
+- `challenge_ideas.md` — 5 challenge directions with detailed guidance
