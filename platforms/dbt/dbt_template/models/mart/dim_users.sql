@@ -35,7 +35,7 @@ select
     u.genre_entropy,
 
     -- primary attributes
-    u.primary_provider_id,
+    u.primary_provider_group,
     u.primary_genre,
     u.primary_monetization_type,
     u.primary_device

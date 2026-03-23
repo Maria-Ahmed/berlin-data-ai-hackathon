@@ -1,0 +1,1527 @@
+PROVIDER_ID,TECHNICAL_NAME,CLEAR_NAME,MONETIZATION_TYPES,PROVIDER_GROUP
+119,amazonprimevideo,Amazon Prime Video,{flatrate},Amazon
+82,tenplay,10,{free},10
+623,tencentvideo,WeTV,"{flatrate,ads}",WeTV
+2595,cinetonala,Tonala,{cinema},Tonala
+2596,cineprocinal,Cinemas Procinal,{cinema},Cinemas Procinal
+2597,cinemasprocinal,Cinemas Procinal,{cinema},Cinemas Procinal
+2598,cinecolombia,Cine Colombia,{cinema},Cine Colombia
+2601,pathehome,Pathé Home,"{rent,buy}",Pathé Home
+2602,cinemacenter,Cinemacenter,{cinema},Cinemacenter
+2600,amazonstudiouniversal,Studio Universal Amazon Channel,{flatrate},Amazon
+50,amazondvdbr,Amazon DVD / Blu-ray,{buy},Amazon
+2603,kableone,KableOne,{flatrate},KableOne
+2661,thmanyah,Thmanyah,{flatrate},Thmanyah
+2605,amazondiamondfilms,Diamond Films Amazon Channel,{flatrate},Amazon
+2607,amazonarte1,Arte Amazon Channel,{flatrate},Amazon
+2608,amazonaquarius,Aquarius Amazon Channel,{flatrate},Amazon
+2609,amazonbooh,Booh Amazon Channel,{flatrate},Amazon
+2610,amazoncinebmovie,CINE BMovie Amazon Channel,{flatrate},Amazon
+2611,amazongaumont,Gaumont Amazon Channel,{flatrate},Amazon
+2617,ottstudio,OTT studio,{ads},OTT studio
+2599,amazonzdfschatzkiste,ZDF Schatzkiste Amazon channel,{flatrate},Amazon
+2622,thirteen,Thirteen,{flatrate},Thirteen
+2095,twentiethcenturystudios,20th Century Studios,{cinema},20th Century Studios
+2237,threecat,3Cat,{ads},3Cat
+2211,threesatde,3sat,{flatrate},3sat
+2033,appletvaetncrimecentral,A&E Crime Central Apple TV Channel,{flatrate},Apple TV
+2484,amazonabcod,ABC On Demand Amazon Channel,{flatrate},Amazon
+2314,amazonacaciatv,Acaciatv Amazon Channel,{flatrate},Amazon
+1717,acontraplus,Acontra Plus,"{rent,flatrate}",Acontra Plus
+1742,amazonacontra,Acontra Plus Amazon Channel,{flatrate},Amazon
+2560,arrowvideo,Arrow Video,{buy},Arrow Video
+425,hbogoasia,HBO Go,{flatrate},HBO Go
+87,acorntv,Acorn TV,{flatrate},Acorn TV
+196,amazonacorntv,AcornTV Amazon Channel,{flatrate},Amazon
+2034,appletvacorntv,Acorn TV Apple TV,{flatrate},Apple TV
+1733,amazonactionmax,Action Max Amazon Channel,{flatrate},Amazon
+2092,adorocinema,AdoroCinema,{},AdoroCinema
+2287,amazonadrenalin,Adrenalin Amazon channel,{flatrate},Amazon
+2106,amazonadrenalinapura,Adrenalina Pura Amazon channel,{flatrate},Amazon
+2107,appletvadrenalinapura,Adrenalina Pura Apple TV channel,{flatrate},Apple TV
+2315,amazonadultswim,Adultswim Amazon Channel,{flatrate},Amazon
+2449,amazonvdpaerus0y42p3p9a56,AeroCinema Amazon Channel,{flatrate},Amazon
+398,ahctv,AHCTV,"{flatrate,free}",AHCTV
+2220,akibapass,Akibapass,"{flatrate,rent,buy}",Akibapass
+2316,amazonalchemiya,Alchemiya Amazon Channel,{flatrate},Amazon
+2064,amazonumc,ALLBLK Amazon channel ,{flatrate},Amazon
+2036,appletvumc,ALLBLK Apple TV channel,{flatrate},Apple TV
+33,alleskino,Alleskino,"{flatrate,rent,buy}",Alleskino
+91,allocine,Allociné,{none},Allociné
+2288,amazonallstars,Allstars Amazon Channel,{flatrate},Amazon
+2317,amazonallwarriornetwork,All warrior network Amazon Channel,{flatrate},Amazon
+2062,amazonaetncrimecentral,A&E Crime Central Amazon Channel ,{flatrate},Amazon
+533,amazonarthaus,Amazon Arthaus Channel,{flatrate},Amazon
+2070,amazonbbcselect,BBC Select Amazon channel ,{flatrate},Amazon
+2328,amazonbrsportsaddon,BR Sports Amazon Channel,{flatrate},Amazon
+2482,amazoncalientetv,Caliente TV Amazon Channel,{flatrate},Amazon
+2242,amazoncanaisglobo,Canais Globo Amazon Channel,{flatrate},Amazon
+2370,amazondc,DC Amazon Channel,{flatrate},Amazon
+2373,amazondiscoverycnn,Discovery CNN Amazon Channel,{flatrate},Amazon
+2380,amazondplusdiscovery,Dplus Discovery Amazon Channel,{flatrate},Amazon
+2382,amazondplusoriginals,Discovery+ Originals Amazon Channel,{flatrate},Amazon
+2612,amazoncnrewind,CN Rewind Amazon Channel,{flatrate},Amazon
+2497,amazonfamigekineoplus,Fami Geki NEO Plus Amazon Channel,{flatrate},Amazon
+2387,amazonfanduelsports,FanDuel Sports Network Amazon Channel ,{flatrate},Amazon
+2558,amazongullimax,Gullimax Amazon Channel,{flatrate},Amazon
+1825,amazonhbomax,HBO Max Amazon Channel,{flatrate},Amazon
+200,amazonhbonow,HBO Now Amazon Channel,{flatrate},Amazon
+2410,amazoninsideoutside,Inside Outside Amazon Channel,{flatrate},Amazon
+2422,amazonmotorland,Motorland Amazon Channel,{flatrate},Amazon
+261,amazonnickhits,Nickhits Amazon Channel,{flatrate},Amazon
+2425,amazonown,OWN Amazon Channel,{flatrate},Amazon
+292,amazonpantaya,Pantaya Amazon Channel,{flatrate},Amazon
+2553,amazonpeacockpremiumplus,Peacock Premium Plus Amazon Channel,{flatrate},Amazon
+682,amazonpongal,Pongalo Amazon Channel,{flatrate},Amazon
+2665,tv5unis,TV5 Unis,{ads},TV5 Unis
+613,amazonimdbtv,Amazon Prime Video Free with Ads,{ads},Amazon
+2100,amazonprimevideowithads,Amazon Prime Video with Ads,{flatrate},Amazon
+2361,amazonroosterteeth,Roosterteeth Amazon Channel ,{flatrate},Amazon
+1731,amazonsalto,Salto Amazon Channel,{flatrate},Amazon
+2437,amazonscience,Science Amazon Channel,{flatrate},Amazon
+2306,amazonserieb,LaB Amazon Channel,{flatrate},Amazon
+2385,amazonsptvjp,SPTV Amazon Channel ,{flatrate},Amazon
+2516,amazonsptvsoccer,SOCCER LIVE LITE Amazon Channel,{flatrate},Amazon
+194,amazonstarzplay,Starz Play Amazon Channel,{flatrate},Amazon
+2441,amazontcm,TCM Amazon Channel,{flatrate},Amazon
+2362,amazontlc,TLC Amazon Channel,{flatrate},Amazon
+2067,amazontopic,Topic Amazon Channel ,{flatrate},Amazon
+2234,amazontsnca,TSN Amazon Channel	,{flatrate},Amazon
+2476,amazonvdpkenusty393s34ds3,Kenneth Copeland Ministries Amazon Channel,{flatrate},Amazon
+10,amazon,Amazon Video,"{rent,buy}",Amazon
+2386,amazonwillowtv,Willow TV Amazon Channel ,{flatrate},Amazon
+2521,amazonwowspo,WOWSPO Amazon Channel ,{flatrate},Amazon
+2384,amazonwowspojp,WOWSPO Amazon Channel ,{flatrate},Amazon
+2282,amazonzeitakademie,Zeit Akademie Selection Amazon Channel,{flatrate},Amazon
+80,amc,AMC,{flatrate},AMC
+2561,amazonamcselekt,AMC Channels Amazon Channel,{flatrate},Amazon
+2477,amccinemas,AMC Cinemas,{cinema},AMC Cinemas
+352,amctheatresondemand,AMC on Demand,"{rent,buy}",AMC on Demand
+526,amcplus,AMC+,{flatrate},AMC+
+528,amazonamcplus,AMC+ Amazon Channel,{flatrate},Amazon
+1854,appletvamcplus,AMC Plus Apple TV Channel ,{flatrate},Apple TV
+635,rokuchannelamcplus,AMC+ Roku Premium Channel,{flatrate},Roku
+162,amctheatres,AMC Theatres,{cinema},AMC Theatres
+1956,angel,Angel Studios,"{ads,cinema,flatrate}",Angel Studios
+5,watchever,Watchever,"{rent,buy}",Watchever
+2683,fod,FOD,{flatrate},FOD
+415,animedigitalnetwork,Animation Digital Network,"{flatrate,ads,free}",Animation Digital Network
+195,amazonanimaxplus,Animax Plus Amazon Channel,{flatrate},Amazon
+424,animelab,Animelab,"{ads,flatrate}",Animelab
+327,animeondemand,Anime On Demand,"{buy,rent,flatrate}",Anime On Demand
+2182,amazonanimetimes,Anime Times Amazon Channel,{flatrate},Amazon
+707,amazonaniverse,Aniverse Amazon Channel,{flatrate},Amazon
+2684,tpt,TPT,{},TPT
+2051,appletvmgm,MGM Apple TV Channel,{flatrate},Apple TV
+2043,appletvmotortrend,MotorTrend Apple TV channel,{flatrate},Apple TV
+2031,appletvmubi,MUBI Apple TV Channel ,{flatrate},Apple TV
+676,appletvmycanal,myCANAL Apple TV Channel,{flatrate},Apple TV
+2243,amazonappletvplus,Apple TV Amazon Channel,{flatrate},Amazon
+2046,appletvtopic,Topic Apple TV Channel,{flatrate},Apple TV
+2338,ardalpha,ARD alpha ARD channel,{free},ARD alpha ARD channel
+2339,ardarte,Arte ARD Channel,{free},Arte ARD Channel
+2340,ardbr,BR ARD channel,{free},BR ARD channel
+2341,arddaserste,DasErste ARD Channel,{free},DasErste ARD Channel
+2342,ardfunk,FUNK ARD Channel,{free},FUNK ARD Channel
+2344,ardkika,KIKA ARD Channel,{free},KIKA ARD Channel
+2345,ardmdr,MDR ARD Channel,{free},MDR ARD Channel
+219,daserstemediathek,ARD Mediathek,{free},ARD
+2346,ardndr,NDR ARD Channel,{free},NDR ARD Channel
+2347,ardone,One ARD Channel,{free},One ARD Channel
+2348,ardphoenix,Phoenix ARD Channel,{free},Phoenix ARD Channel
+2065,amazonardplus,ARD Plus Amazon channel ,{flatrate},Amazon
+2037,appletvardplus,ARD Plus Apple TV channel,{flatrate},Apple TV
+2349,ardradiobremen,Radiobremen ARD Channel,{free},Radiobremen ARD Channel
+2350,ardrbb,RBB ARD Channel,{free},RBB ARD Channel
+2352,ardswr,SWR ARD Channel,{free},SWR ARD Channel
+2353,ardtagesschau,Tagesschau24 ARD Channel,{free},Tagesschau24 ARD Channel
+2337,ardthreesat,3sat ARD Channel,{free},3sat ARD Channel
+2354,ardwdr,WDR ARD Channel,{free},WDR ARD Channel
+2334,ardwebapi,ARD web ,{free},ARD web 
+2355,ardzdf,ZDF ARD Channel,{free},ZDF ARD Channel
+534,argo,Argo,"{flatrate,rent}",Argo
+529,arrowplayer,ARROW,"{flatrate,rent,buy}",ARROW
+596,amazonarrowvideo,Arrow Video Amazon Channel,{flatrate},Amazon
+234,arte,Arte,{free},Arte
+490,arte1play,Arte1 Play ,"{free,flatrate}",Arte1 Play 
+2038,appletvarthaus,Arthaus+ Apple TV channel,{flatrate},Apple TV
+481,arthousecnma,ArthouseCNMA,{flatrate},ArthouseCNMA
+687,amazonarthousecnma,Arthouse CNMA Amazon Channel,{flatrate},Amazon
+514,asiancrush,AsianCrush,{flatrate},AsianCrush
+2485,amazonasiadramach,Asian Drama Channel Amazon Channel,{flatrate},Amazon
+2486,amazonasiapremium,Asia Premium Amazon Channel ,{flatrate},Amazon
+2244,amazonasiatic,ASIATIC Amazon Channel,{flatrate},Amazon
+2320,amazonaspiretv,Aspire TV Amazon Channel,{flatrate},Amazon
+1827,aspor,A Spor,{flatrate},A Spor
+2579,atlascines,Atlas Cines,{cinema},Atlas Cines
+179,atomtickets,Atom Tickets,{cinema},Atom Tickets
+62,atres,Atres Player,"{flatrate,ads}",Atres Player
+2162,amazonatresplayer,Atresplayer Amazon Channel,{flatrate},Amazon
+2245,amazonautomotorundsport,Auto Motor und Sport Amazon Channel,{flatrate},Amazon
+1725,avars,AVA BGB,{flatrate},AVA BGB
+1724,avach,AVA CSAL,{flatrate},AVA CSAL
+1723,avanrw,AVA HBZ,{flatrate},AVA HBZ
+1722,avaberlin,AVA VOBB,{flatrate},AVA VOBB
+2246,amazonaxnwhite, AXN White Amazon Channel ,{flatrate},Amazon
+1815,azteca7,Azteca 7,{free},Azteca 7
+2324,amazonbaeble,Baeble Amazon Channel,{flatrate},Amazon
+1847,tvbandsports,Band Sports,{free},Band Sports
+2233,amazonbattlezone,BATTLEZONE Amazon Channel,{flatrate},Amazon
+397,bbcamerica,BBC America,{flatrate},BBC America
+610,amazonbbcearth,BBC Earth Amazon Channel,{flatrate},Amazon
+38,bbc,BBC iPlayer,"{free,flatrate}",BBC iPlayer
+2179,amazonbbckids,BBC Kids Amazon Channel,{flatrate},Amazon
+2039,appletvbbcselect,BBC Select Apple Tv channel,{flatrate},Apple TV
+131,bbcstore,BBC Store,{buy},BBC Store
+59,bbox,Bbox VOD,{rent},Bbox VOD
+448,beamafilm,Beamafilm,"{rent,free,flatrate}",Beamafilm
+2321,amazonbefit,BeFit Amazon Channel,{flatrate},Amazon
+1829,behindthetree,Behind the Tree,{rent},Behind the Tree
+447,belasartesalacarte,Belas Artes à La Carte,"{flatrate,rent}",Belas Artes à La Carte
+465,believe,Believe,{flatrate},Believe
+1738,amazonbenshi,Benshi Amazon Channel,{flatrate},Amazon
+2299,amazonxplore,Bergblick Amazon Channel,{flatrate},Amazon
+2323,amazonbestofbritish,Best of British Tv Amazon Channel,{flatrate},Amazon
+2322,amazonbestevertv,Best tv ever Amazon Channel,{flatrate},Amazon
+2325,amazonbestwesternsever,Best Westerns Ever Amazon Channel,{flatrate},Amazon
+1759,betplus,Bet+,{flatrate},Bet+
+2040,appletvbetplus,BET+  Apple TV channel,{flatrate},Apple TV
+2090,beyazperde,Beyazperde,{},Beyazperde
+224,bfi,BFI Player,"{flatrate,rent,free}",BFI Player
+2041,appletvbfiplayer,BFI Player Apple TV Channel,{flatrate},Apple TV
+466,bioskoponline,Bioskop Online,{rent},Bioskop Online
+1908,blasttvesports,BLAST.tv,{free},BLAST.tv
+423,blockbuster,Blockbuster,"{buy,rent}",Blockbuster
+680,amazonbloodymovies,Bloody Movies Amazon Channel,{flatrate},Amazon
+2487,amazonbloomeplus,Bloome plus Amazon Channel,{flatrate},Amazon
+1707,amazonblutv,BluTV Amazon Channel,{flatrate},Amazon
+2450,amazonvdpbonus0sqqdwawqj0,BongFlix Amazon Channel,{flatrate},Amazon
+124,bookmyshow,Bookmyshow,{cinema},Bookmyshow
+248,boomerang,Boomerang,"{flatrate,free}",Boomerang
+288,amazonboomerang,Boomerang Amazon Channel,{flatrate},Amazon
+2488,amazonboxbrazil,Box Brazil Play Amazon Channel,{flatrate},Amazon
+54,boxoffice,BoxOffice,{rent},BoxOffice
+151,britbox,BritBox,{flatrate},BritBox
+197,amazonbritbox,BritBox Amazon Channel,{flatrate},Amazon
+1852,appletvbritbox,Britbox Apple TV Channel ,{flatrate},Apple TV
+380,britboxuk,BritBox,{flatrate},BritBox
+554,broadwayhd,BroadwayHD,{flatrate},BroadwayHD
+2326,amazonbroadwayhd,Broadway HD Amazon Channel,{flatrate},Amazon
+2327,amazonbrownsugar,Brown Sugar Amazon Channel,{flatrate},Amazon
+1955,brsportsaddon,BR Sports,{flatrate},BR Sports
+1871,benficatv,BTV,{flatrate},BTV
+2606,amazonnovecento,Novecento Amazon Channel,{flatrate},Amazon
+2189,calientetv,Caliente TV,"{free,ads}",Caliente TV
+1926,canal11,Canal 11,{flatrate},Canal 11
+2154,canalplusfr,Canal + FR,{flatrate},Canal + FR
+2101,canalpluspremiumpl,CANAL+,{flatrate},CANAL+
+1719,canalplussport,Canal+ Sport,{flatrate},Canal+ Sport
+58,canalplayvod,Canal VOD,"{buy,rent}",Canal VOD
+2071,amazoncarnegiehallplus,Carnegie Hall+ Amazon Channel,{flatrate},Amazon
+2572,buyzoxs,buy ZOXS,{buy},buy ZOXS
+2559,buecher,Buecher,{buy},Buecher
+2042,appletvcarnegiehallplus,Carnegie Hall+ Apple TV Channel,{flatrate},Apple TV
+317,cartoonnetwork,Cartoon Network,"{flatrate,ads}",Cartoon Network
+2329,amazoncartoonnetwork,Cartoon Network Amazon Channel,{flatrate},Amazon
+159,catchplay,Catchplay,"{flatrate,rent,free}",Catchplay
+78,cbs,CBS,{flatrate},CBS
+198,amazoncbsallaccess,CBS All Access Amazon Channel,{flatrate},Amazon
+2214,cdapremium,CDA Premium,{flatrate},CDA Premium
+2228,centerplex,Centerplex Cinemas,{cinema},Centerplex Cinemas
+1727,amazoncgent,CG Collection Amazon channel,{flatrate},Amazon
+495,cgoodtv,CGood TV,{free},CGood TV
+2149,cgtv,CG TV STREAMING,{rent},CG TV STREAMING
+438,chaiflicks,Chai Flicks,{flatrate},Chai Flicks
+2311,all4plus,Channel 4 Plus,{flatrate},Channel 4 Plus
+2491,amazonchannelk,Channel K Amazon Channel,{flatrate},Amazon
+2492,amazonchkyofu,Channel Kyofu Amazon Channel,{flatrate},Amazon
+2178,amazonchaupal,Chaupal Amazon Channel,{flatrate},Amazon
+2193,amazonchivastv,ChivasTV Amazon Channel,{flatrate},Amazon
+2167,amazoncindie,Cindie Amazon Channel,{flatrate},Amazon
+491,cine,CINE,{free},CINE
+496,cineasterna,Cineasterna,{free},Cineasterna
+1894,amazoncineautore,CineAutore Amazon Channel,{flatrate},Amazon
+1730,amazoncinecomico,Cine Comico Amazon Channel,{flatrate},Amazon
+2099,cinentreprise,Cine Entreprise,{cinema},Cine Entreprise
+2493,amazoncinefilwowow,Cinefil Wow Plus Amazon Channel,{flatrate},Amazon
+2222,cineflix,Cineflix,{cinema},Cineflix
+2110,cinelandia,Cinelandia,{cinema},Cinelandia
+2188,cinemacity,Cinema City,{cinema},Cinema City
+42,cinemanow,Cinema Now,"{rent,buy}",Cinema Now
+679,amazoncinehearts,Cinema of Hearts Amazon Channel,{flatrate},Amazon
+2097,cinemasguzzo,Cinemas Guzzo,{cinema},Cinemas Guzzo
+2061,appletvcinemax,Cinemax Apple TV Channel,{flatrate},Apple TV
+639,cinemember,CineMember,{flatrate},CineMember
+173,cinemex,Cinemex,{cinema},Cinemex
+2481,amazoncinemixplus,CineMix+ Amazon Channel,{flatrate},Amazon
+2175,cineplexau,Cineplex Australia,{cinema},Cineplex Australia
+2098,cineplexentertainment,Cineplex Entertainment,{cinema},Cineplex Entertainment
+2091,cineplexpictures,Cineplex Pictures,{cinema},Cineplex Pictures
+685,amazonocs,Cine+ OCS Amazon Channel ,{flatrate},Amazon
+172,cinepolis,Cinepolis,{},Cinepolis
+558,cinepolisklic,Cinépolis KLIC,"{rent,buy,free}",Cinépolis KLIC
+2124,cinesa,Cinesa,{cinema},Cinesa
+694,cinessance,Cinessance,"{flatrate,rent}",Cinessance
+2131,cinestar,Cinestar,{cinema},Cinestar
+2576,cinestarla,Cine Star ,{cinema},Cine Star 
+2212,cinesystem,Cinesystem Cinemas,{cinema},Cinesystem Cinemas
+1957,cineverse,Cineverse,"{rent,buy,ads,flatrate}",Cineverse
+2079,cineversefast,Cineverse LiveTV,{fast},Cineverse LiveTV
+2130,cineworld,Cineworld,{cinema},Cineworld
+2127,yelmocines,Cine Yelmo,{cinema},Cine Yelmo
+2557,cinobo,Cinobo,{flatrate},Cinobo
+2115,cinu,Cinu,{flatrate},Cinu
+2247,amazoncirkus,Cirkus Amazon Channel ,{flatrate},Amazon
+2171,amazoncitytvplus,Citytvplus Amazon Channel,{flatrate},Amazon
+1834,marcaclaro,Claro Sports,"{free,flatrate}",Claro Sports
+484,nowonline,Claro tv+,{flatrate},Claro tv+
+167,clarovideo,Claro video,"{flatrate,rent,buy}",Claro video
+445,classixapp,Classix,{flatrate},Classix
+469,clubillico,Club Illico,{flatrate},Club Illico
+77,cmore,TV4,"{buy,ads,flatrate_and_buy,flatrate,rent}",TV4
+2393,amazonelgourmet,Cocina ON Amazon Channel,{flatrate},Amazon
+1811,amazoncohen,Cohen Media Amazon Channel,{flatrate},Amazon
+243,comedycentral,Comedy Central,"{ads,flatrate}",Comedy Central
+1706,amazoncomedycentral,Comedy Central Plus Amazon Channel,{flatrate},Amazon
+2301,comotvfootball,COMO TV,{flatrate},COMO TV
+543,contar,CONTAR,{flatrate},CONTAR
+428,contv,CONtv,"{flatrate,free}",CONtv
+400,cookingchanneltv,Cooking Channel,"{flatrate,free}",Cooking Channel
+1881,coupangplay,Coupang Play,{flatrate},Coupang Play
+1763,courtside1891,Courtside 1891,{flatrate},Courtside 1891
+12,crackle,Crackle,"{flatrate,ads,free}",Crackle
+230,crave,Crave,{flatrate},Crave
+231,craveplus,Crave Plus,{flatrate},Crave Plus
+2542,barnesandnoble,Barnes & Noble,{buy},Barnes & Noble
+2613,amazonanimaxplusgem,Animax Amazon Channel,{flatrate},Amazon
+305,cravestarz,Crave Starz,{flatrate},Crave Starz
+2093,cricbuzz,Cricbuzz,{flatrate},Cricbuzz
+2063,amazonciplay,Crime+Investigation Play Amazon Channel ,{flatrate},Amazon
+2035,appletvciplay,Crime+Investigation Play Apple TV Channel,{flatrate},Apple TV
+1893,amazoncrimeinvestigation,Crime+ Investigation Play Amazon Channel,{flatrate},Amazon
+153,ctvgo,CTV Go,"{flatrate,free}",CTV Go
+692,cultpix,Cultpix,{flatrate},Cultpix
+617,curiatv,Curia,{flatrate},Curia
+603,amazoncuriositystreamstandard,CuriosityStream Amazon Channel,{flatrate},Amazon
+2060,appletvcuriositystreamstandard,CuriosityStream Apple TV Channel,{flatrate},Apple TV
+2159,amazoncurtaon,CurtaOn Amazon Channel,{flatrate},Amazon
+1745,amazoncurzon,Curzon Amazon Channel,{flatrate},Amazon
+206,cwseed,CW Seed,{free},CW Seed
+2368,amazondailyburn,Daily Burn Amazon Channel,{flatrate},Amazon
+2494,amazondanime,dAnime Amazon Channel,{flatrate},Amazon
+2369,amazondaringdocs,Daring Docs Amazon Channel,{flatrate},Amazon
+355,darkmatter,Darkmatter TV,{ads},Darkmatter TV
+2308,darkroom,Darkroom,{free},Darkroom
+1837,amazondazn,DAZN Amazon Channel,{flatrate},Amazon
+1942,daznnflgp,DAZN NFL Game Pass,{flatrate},DAZN NFL Game Pass
+226,dcuniverse,DC Universe,{flatrate},DC Universe
+444,dekkoo,Dekkoo,{flatrate},Dekkoo
+2371,amazondekkoo,Dekkoo Amazon Channel,{flatrate},Amazon
+2442,amazontheafricachannel,Demand Africa Amazon Channel,{flatrate},Amazon
+2155,dendycinemas,Dendy Cinemas,{cinema},Dendy Cinemas
+402,destinationamerica,Destination America,"{flatrate,free}",Destination America
+2451,amazonvdpdesus4rwr3y4v0sv,Destiny Image TV Amazon Channel,{flatrate},Amazon
+2191,df1,DF1,{free},DF1
+535,tiff,digital TIFF Bell Lightbox,{rent},digital TIFF Bell Lightbox
+358,directv,DIRECTV,"{buy,rent,flatrate}",DIRECTV
+467,directvgo,DIRECTV GO,{flatrate},DIRECTV GO
+2614,amazonoutbuster,Outbuster Amazon Channel,{flatrate},Amazon
+2615,amazontfoumax,TFOU Max Amazon Channel,{flatrate},Amazon
+2544,amazonligueoneplus,Ligue 1+ Amazon Channel,{flatrate},Amazon
+2541,amazonwow,WOW Amazon Channel,{flatrate},Amazon
+2229,amazondisasterx,Disaster X Amazon Channel,{flatrate},Amazon
+403,discoverygo,Discovery,"{flatrate,free}",Discovery+
+1708,amazondiscoverychannel,Discovery Amazon Channel,{flatrate},Amazon
+404,discoverylife,Discovery Life,"{flatrate,free}",Discovery+
+510,discoveryplus,Discovery+,"{flatrate,ads}",Discovery+
+550,tenk,Tenk,"{flatrate,rent}",Tenk
+2621,kqed,KQED,{ads},KQED
+584,amazondiscoveryplus,Discovery+ Amazon Channel,{flatrate},Amazon
+1836,discoveryplusasia,Discovery+,{flatrate},Discovery+
+523,discoverypluseu,Discovery Plus EU,"{ads,flatrate}",Discovery+
+1835,amazondiscoveryplussport,Discovery+ Sport Amazon Channel,{flatrate},Amazon
+508,disneynow,DisneyNOW,{flatrate},Disney+
+390,disneyplusjp,Disney Plus,{flatrate},Disney+
+376,disneypluspreview,Disney+,{flatrate},Disney+
+1971,distrotv,DistroTV,{ads},DistroTV
+405,diynetwork,DIY Network,"{flatrate,free}",DIY Network
+1741,amazondizi,Dizi Amazon Channel,{flatrate},Amazon
+569,dafilms,DocAlliance Films,{flatrate},DocAlliance Films
+2376,amazondoccom,DocCom Amazon Channel,{flatrate},Amazon
+2168,amazondocplay,DocPlay Amazon Channel,{flatrate},Amazon
+475,docsville,DOCSVILLE,{flatrate},DOCSVILLE
+2469,amazonyaddo,Docsville Amazon Channel,{flatrate},Amazon
+604,amazondocubay,DocuBay Amazon Channel,{flatrate},Amazon
+2377,amazondocuramafilms,DocuramaFilms Amazon Channel,{flatrate},Amazon
+536,dogwoof,Dogwoof On Demand,"{rent,buy}",Dogwoof On Demand
+2408,amazonjedge,Doki Amazon Channel,{flatrate},Amazon
+2378,amazondove,Dove Amazon Channel,{flatrate},Amazon
+254,dovechannel,Dove Channel,{free},Dove Channel
+2379,amazondox,Dox Amazon Channel,{flatrate},Amazon
+435,drakenfilms,Draken Films,{flatrate},Draken Films
+2452,amazonvdpdreusc2tcmc9g3xj,Dreamscape Kids Amazon Channel,{flatrate},Amazon
+620,drdk,DRTV,{free},DRTV
+524,discoverypluseurope,Discovery+,{flatrate},Discovery+
+520,discoveryplusus,Discovery +,"{ads,flatrate}",Discovery+
+2620,caixaforumplus,CaixaForum+,{free},CaixaForum+
+2343,ardhr,HR ARD Channel,{free},HR ARD Channel
+1905,dsmartgo,D-Smart Go,{flatrate},D-Smart Go
+1950,dynmedia,Dyn,{flatrate},Dyn
+2389,amazoneaglemagic,Eagle Magic Amazon Channel,{flatrate},Amazon
+2388,amazoneaglepictures,Eagle No Limits Amazon Channel,{flatrate},Amazon
+2392,amazonechoboom,Echoboom Amazon Channel ,{flatrate},Amazon
+628,edisonline,Edisonline,{flatrate},Edisonline
+2248,amazoneentertainment,E! Entertainment Amazon Channel ,{flatrate},Amazon
+1949,eflifollow,EFL iFollow,"{flatrate,buy}",EFL iFollow
+1828,elevensports,ELEVEN ON DAZN,{flatrate},ELEVEN ON DAZN
+540,elisaviihde,Elisa Viihde,"{flatrate,rent,buy}",Elisa Viihde
+2496,amazonentasia,Entertainment Asia Amazon Channel,{flatrate},Amazon
+1970,entradas,Entradas,{cinema},Entradas
+1987,epcrtv,EPCR TV,{flatrate},EPCR TV
+476,epicon,EPIC ON,{ads},EPIC ON
+218,erosnow,Eros Now,{flatrate},Eros Now
+595,amazonerosnow,Eros Now Amazon Channel,{flatrate},Amazon
+2059,appletverosnow,Eros Now Select Apple TV Channel,{flatrate},Apple TV
+1718,espn,ESPN,{flatrate},ESPN
+1765,espn2,ESPN 2,{flatrate},ESPN 2
+1766,espn3,ESPN 3,{flatrate},ESPN 3
+1821,espn4,ESPN 4,{flatrate},ESPN 4
+1767,espndeportes,ESPN Deportes,{flatrate},ESPN Deportes
+1798,espnplayer,ESPN Player,{flatrate},ESPN Player
+1768,espnplus,ESPN Plus,{flatrate},ESPN Plus
+2411,eternalfamily,Eternal Family,{flatrate},Eternal Family
+1952,euroleaguetv,EuroLeague TV,{flatrate},EuroLeague TV
+1705,eurosport,Eurosport,{},Eurosport
+677,eventive,Eventive,"{rent,free}",Eventive
+2198,everyman,Everyman Cinema,{cinema},Everyman Cinema
+1791,exxen,Exxen,{flatrate},Exxen
+1720,f1tv,F1TV Pro,{flatrate},F1TV Pro
+1979,fanatiz,Fanatiz,{flatrate},Fanatiz
+1917,fancode,FanCode,"{flatrate_and_buy,flatrate,buy}",FanCode
+1981,amazonfancode,FanCode Amazon Channel,{flatrate},Amazon
+60,fandango,Fandango,{cinema},Fandango
+2657,wetaplus,WETA+,"{flatrate,ads}",WETA+
+7,vudu,Fandango At Home,"{rent,buy}",Fandango
+105,fandangonow,FandangoNOW,{},FandangoNOW
+25,fandor,Fandor,{flatrate},Fandor
+199,amazonfandor,Fandor Amazon Channel,{flatrate},Amazon
+2116,fanseat,Fanseat,"{flatrate,buy}",Fanseat
+2108,amazonfareast,Far East Amazon Channel ,{flatrate},Amazon
+2673,tg4,TG4,"{free,ads}",TG4
+2409,fawesometv,Fawesome,{ads},Fawesome
+2394,amazonfearfactory,Fear Factory Amazon Channel,{flatrate},Amazon
+1943,feftv,FEF TV,{flatrate},FEF TV
+2289,amazonromancetv,Fernsehen mit Herz Amazon Channel,{flatrate},Amazon
+436,fetchtv,Fetch TV,"{buy,rent}",Fetch TV
+1814,ffftv,FFF tv,{flatrate},FFF tv
+2453,amazonvdpfidusatrhcwdch2v,FidoTV Channel Amazon Channel,{flatrate},Amazon
+1934,fifaplus,FIFA+,{free},FIFA+
+396,film1nl,Film1,{flatrate},Film1
+174,filmaffinity,filmaffinity,{},filmaffinity
+602,amazonfilmbox,FilmBox Live Amazon Channel,{flatrate},Amazon
+701,filmbox,FilmBox+,{flatrate},FilmBox+
+470,filmdetective,The Film Detective,"{free,flatrate}",The Film Detective
+2356,amazonfilmelierplus,Filmelier Plus Amazon Channel,{flatrate},Amazon
+542,filmfriend,filmfriend,{free},filmfriend
+2331,filmgrab,Film grab,{none},Film grab
+1973,filmicca,Filmicca,{flatrate},Filmicca
+63,filmin,Filmin,{flatrate},Filmin
+1756,filmingo,filmingo,"{rent,flatrate}",filmingo
+64,filminplus,Filmin Plus,{rent},Filmin Plus
+678,amazonfilmlegenden,Filmlegenden Amazon Channel,{flatrate},Amazon
+579,filmmovementplus,Film Movement Plus,{flatrate},Film Movement Plus
+2395,amazonfilmmovement,Film Movement Plus Amazon Channel,{flatrate},Amazon
+138,filmotv,FILMO,"{flatrate,rent,buy}",FILMO
+1734,amazonfilmotv,Filmo Amazon Channel,{flatrate},Amazon
+560,filmoteket,Filmoteket,{free},Filmoteket
+1861,filmow,Filmow,{ads},Filmow
+2357,amazonpolarfilm,Filmpalast Amazon Channel,{flatrate},Amazon
+471,filmrise,FILMRISE,"{ads,free}",FILMRISE
+2138,filmspiegel,Filmspiegel,{cinema},Filmspiegel
+2490,amazonchannelasia,Channel Asia Amazon Channel,{},Amazon
+2085,filmstarts,Filmstarts,{none},Filmstarts
+443,filmstriben,Filmstriben,{flatrate},Filmstriben
+102,filmstruck,FilmStruck,{flatrate},FilmStruck
+480,filmtastic,Filmtastic,{flatrate},Filmtastic
+1929,canalplusfilmtastic,Filmtastic bei Canal+,{flatrate},Filmtastic bei Canal+
+681,amazonfilmtotal,Film Total Amazon Channel,{flatrate},Amazon
+559,filmzie,Filmzie,{ads},Filmzie
+2396,amazonfitfusion,Fitfusion Amazon Channel,{flatrate},Amazon
+2249,amazonfixandfoxi,Fix And Foxi Amazon Channel,{flatrate},Amazon
+2250,amazonflimmerkistetv,FlimmerkisteTV Amazon Channel,{flatrate},Amazon
+142,flimmit,Flimmit,"{rent,buy,flatrate}",Flimmit
+2239,flixhouse,FlixHouse,{free},FlixHouse
+2397,amazonflixlatino,FlixLatino Amazon Channel,{flatrate},Amazon
+393,flixole,FlixOlé,{flatrate},FlixOlé
+684,amazonflixole,FlixOlé Amazon Channel,{flatrate},Amazon
+432,flixpremiere,Flix Premiere,{flatrate},Flix Premiere
+1824,florugby,Flo Rugby,{flatrate},Flo Rugby
+2498,amazonfod,FOD Channel Amazon Channel,{flatrate},Amazon
+2398,amazonfoodmatters,Food Matters Amazon Channel,{flatrate},Amazon
+2552,footballclub,FootballClub,{flatrate},FootballClub
+2251,amazonfounderzone,Founderzone Amazon Channel,{flatrate},Amazon
+2478,foundtv,FOUND TV,{flatrate},FOUND TV
+186,fox,Fox,{none},Fox
+1995,foxdeportes,Fox Deportes,{flatrate},Fox Deportes
+229,foxplay,Fox Play,{flatrate},Fox Play
+228,foxpremium,Fox Premium,{flatrate},Fox Premium
+1848,foxsoccerplus,FOX Soccer Plus,{flatrate},FOX Soccer Plus
+1799,foxsports,Fox Sports,{flatrate},Fox Sports
+1776,foxsports1,Fox Sports 1,{flatrate},Fox Sports 1
+1921,foxsports2,Fox Sports 2,{flatrate},Fox Sports 2
+2082,amazonfoxsportspremium,FOX Sports Premium Amazon Channel,{flatrate},Amazon
+214,foxstudio,Fox Studio,{},Fox Studio
+134,foxtelplay,Foxtel Now,{flatrate},Foxtel Now
+2568,fnac,Fnac ,{buy},Fnac 
+2616,paramountplusessential,Paramount Plus Essential,{flatrate},Paramount+
+2252,amazonfranatic,Franatic Amazon Channel,{flatrate},Amazon
+2618,ottstudioplayer,Free Movies Plus,{ads},Free Movies Plus
+101,daum,Daum,{cinema},Daum
+2400,amazonfrancechannel,France Channel Amazon Channel,{flatrate},Amazon
+236,francetv,France TV,"{ads,free}",France TV
+2535,amazonfrancetv,France TV Amazon Channel,{flatrate},Amazon
+590,free,Free - All,"{ads,free}",Free - All
+211,freeform,Freeform,{flatrate},Freeform
+2209,freenet,Freenet meinVOD,"{rent,buy,flatrate}",Freenet meinVOD
+257,fubotv,fuboTV,{flatrate},fuboTV
+2448,amazonvaporvue,FUEL TV+ Amazon Channel,{flatrate},Amazon
+1729,amazonduel,Full Action Amazon Channel,{flatrate},Amazon
+597,amazonfullmoon,Full Moon Amazon Channel,{flatrate},Amazon
+269,funimationnow,Funimation Now,"{flatrate,ads}",Crunchyroll
+2103,funk,Funk,{flatrate},Funk
+2401,amazonfuse,Fuse+ Amazon Channel,{flatrate},Amazon
+123,fxnow,FXNow,{flatrate},FXNow
+348,fxnowcanada,FXNow Canada,{flatrate},FXNow Canada
+1962,fyi,FYI Network,{ads},FYI Network
+2164,amazongaia,Gaia Amazon Channel,{flatrate},Amazon
+2480,amazongaiamtv,Gaiam TV Yoga & Fit,{flatrate},Amazon
+2231,amazonscificinemade,Galactic Stream Amazon Channel,{flatrate},Amazon
+1802,gameflowtv,Gameflow TV,{free},Gameflow TV
+468,genflix,genflix,"{flatrate,free}",genflix
+176,geonames,Geonames,{},Geonames
+2253,amazongeotelevision,GEO Television Amazon Channel,{flatrate},Amazon
+2359,amazongeopluswildtelevision,GEO Television + Wild Amazon Channel,{flatrate},Amazon
+2254,amazongeowild,GEO Wild Amazon Channel,{flatrate},Amazon
+2574,getv,ge tv,"{ads,free}",ge tv
+302,gfk,GfK Metadata,{},GfK Metadata
+1990,glewed,GlewedTV,{ads},GlewedTV
+449,globaltv,Global TV,{ads},Global TV
+1803,golmundial,Gol Mundial,{},Gol Mundial
+2624,tv2dkskyshowtime,TV2 Skyshowtime,{flatrate},TV2 Skyshowtime
+2658,tvp,TVP,"{rent,flatrate,ads}",TVP
+113,iviru,Ivi,"{rent,buy,free}",Ivi
+2660,amazonwowfiction,Wow Fiction Amazon Channel,{flatrate},Amazon
+2666,blickpunktfilm,BlickpunktFilm,{},BlickpunktFilm
+103,all4,Channel 4,"{ads,free}",Channel 4
+13,cms,JustWatch CMS,{none},JustWatch CMS
+2186,golstadiumes,GolStadium,{free},GolStadium
+2543,goltvplay,GOLTV Play,{flatrate},GOLTV Play
+2255,amazongoodmovies,Good Movies Amazon Channel,{flatrate},Amazon
+3,play,Google Play Movies,"{rent,buy}",Google Play
+477,gospelplay,GOSPEL PLAY,{flatrate},GOSPEL PLAY
+353,gowatchit,GoWatchIt,{ads},GoWatchIt
+2433,amazonpureflix,Great American Pure Flix Amazon Channel,{flatrate},Amazon
+2454,amazonvdpgreusmcewhet31wq,Green Planet Stream Amazon Channel,{flatrate},Amazon
+1709,amazongrjngo,GRJNGO Amazon Channel,{flatrate},Amazon
+2402,amazongrokker,Grokker Yoga & Fitness Amazon Channel,{flatrate},Amazon
+100,guidedoc,GuideDoc,{flatrate},GuideDoc
+2256,amazongutelaune,Gute Laune TV Amazon Channel,{flatrate},Amazon
+2224,gxr,GXR,{free},GXR
+281,hallmarkmovies,Hallmark+,{flatrate},Hallmark+
+1966,hallmarkmoviesandmysteries,Hallmark Movies and Mysteries,{ads},Hallmark Movies and Mysteries
+290,amazonhallmarkmoviesnow,Hallmark+ Amazon Channel,{flatrate},Amazon
+2058,appletvhallmarkmoviesnow,Hallmark+ Apple TV Channel,{flatrate},Apple TV
+1746,amazonhallmark,Hallmark TV Amazon Channel,{flatrate},Amazon
+2569,gruv,GRUV,{buy},GRUV
+2118,harkinstheaters,Harkins Theatres,{cinema},Harkins Theatres
+223,hayu,Hayu,{flatrate},Hayu
+118,hbo,HBO,{flatrate},HBO
+31,hbogo,HBO Go,{flatrate},HBO Go
+2619,ottstudiochannel,Free Movies Plus,{ads},Free Movies Plus
+280,hbogoeu,HBO Go,{flatrate},HBO Go
+384,hbomax,HBO Max (retired),{flatrate},HBO Max
+1899,max,HBO Max,{flatrate},HBO Max
+2284,unexthbomax,HBO Max on U-Next,{flatrate},HBO Max
+2365,amazoncnnmax,HBO Max  CNN Amazon Channel,{flatrate},Amazon
+616,hbomaxfree,HBO Max Free,{free},HBO Max Free
+2290,amazonhorsecountry,H & C TV Amazon Channel,{flatrate},Amazon
+75,hbonordic,HBO Nordic,{flatrate},HBO Nordic
+27,hbonow,HBO Now,{flatrate},HBO Now
+244,hbopl,HBO Poland,{flatrate},HBO Poland
+271,hbopt,HBO Portugal,{flatrate},HBO Portugal
+1906,amazonhelbiz,Helbiz Amazon Channel,{flatrate},Amazon
+148,abcgo,ABC,"{flatrate,ads}",ABC
+116,amediateka,Amediateka,"{flatrate,free}",Amediateka
+2604,amazoncrave,Crave Amazon Channel,{flatrate},Amazon
+150,swisscom,blue TV,"{rent,buy,flatrate}",blue TV
+44,cinepass,Cinepass,{cinema},Cinepass
+140,cineplex,CosmoGo,"{rent,buy}",CosmoGo
+190,curiositystream,Curiosity Stream,{flatrate},Curiosity Stream
+189,curzonhomecinema,Curzon Home Cinema,"{flatrate,rent}",Curzon Home Cinema
+2545,foxone,FOX One,{flatrate},FOX One
+1907,helbizlive,Helbiz Live,{flatrate},Helbiz Live
+2194,helios,Helios,{cinema},Helios
+417,heretv,Here TV,{free},Here TV
+2406,amazonheretv,Here TV  Amazon Channel,{flatrate},Amazon
+406,hgtv,HGTV,"{flatrate,free}",HGTV
+430,hidive,HiDive,{flatrate},HiDive
+2390,amazonhidive,Hidive Amazon Channel,{flatrate},Amazon
+2257,amazonhistorama,Historama Amazon Channel,{flatrate},Amazon
+1743,amazonhistoria,Historia y Actualidad Amazon Channel,{flatrate},Amazon
+155,history,History,"{flatrate,ads}",History
+478,historyplay,History Play,{flatrate},History Play
+1710,amazonhistory,HistoryPlay Amazon Channel,{flatrate},Amazon
+2073,amazonhistoryvault,HISTORY Vault Amazon Channel,{flatrate},Amazon
+2057,appletvhistoryvault,HISTORY Vault Apple TV Channel,{flatrate},Apple TV
+503,hiyah,Hi-YAH,"{flatrate,free}",Hi-YAH
+2659,ondamedia,Ondamedia,{flatrate},Ondamedia
+2403,amazonhiyah,Hi-YAH Amazon Channel,{flatrate},Amazon
+9,amazonprime,Amazon Prime Video,{flatrate},Amazon
+2623,artflix,Artiflix,{free},Artiflix
+2662,ticketnew,Ticket New,{cinema},Ticket New
+2663,s4cclic,S4C Clic,{ads},S4C Clic
+2,itunes,Apple TV Store,"{rent,buy}",Apple TV
+2668,amazonwonderproject,Wonder Project Amazon Channel,{flatrate},Amazon
+2667,yowtv,YOW.tv,"{rent,free,buy}",YOW.tv
+2669,pilotwp,Pilot WP,"{buy,rent,flatrate}",Pilot WP
+2671,arteboutique,ARTE Boutique,"{buy,rent}",ARTE Boutique
+2677,f1appletv,F1 on Apple TV,{flatrate},F1 on Apple TV
+246,sevenplus,7plus,"{flatrate,ads}",7plus
+251,umc,ALLBLK,{flatrate},ALLBLK
+36,blinkbox,Blinkbox,"{rent,buy}",Blinkbox
+258,criterionchannel,Criterion Channel,{flatrate},Criterion Channel
+263,amazondreamworkstv,DreamWorksTV Amazon Channel,{flatrate},Amazon
+181,exlibris,Exlibris,"{buy,rent}",Exlibris
+566,filmefilme,Filme Filme,"{flatrate,free}",Filme Filme
+268,historyvault,History Vault,{flatrate},History Vault
+2176,amazonhoichoi,Hoichoi Amazon Channel,{flatrate},Amazon
+164,hollystar,Hollystar,"{rent,buy}",Hollystar
+182,hollywoodsuite,Hollywood Suite,{flatrate},Hollywood Suite
+705,amazonhollywoodsuite,Hollywood Suite Amazon Channel,{flatrate},Amazon
+479,homeofhorror,Home of Horror,{flatrate},Home of Horror
+686,amazonhomeofhorror,Home of Horror Amazon Channel,{flatrate},Amazon
+212,hoopla,Hoopla,{flatrate},Hoopla
+125,hooq,Hooq,{flatrate},Hooq
+2670,novo19,Novo 19,{ads},Novo 19
+2674,ruv,RUV,{free},RUV
+2675,cineplanet,Cineplanet,{cinema},Cineplanet
+2664,district,District by Zomato,{cinema},District by Zomato
+2676,agalega,AGalega,"{ads,free}",AGalega
+2672,amazonm6plus,M6plus Amazon Channel,{ads},Amazon
+1782,snnow,Sportsnet+,{flatrate},Sportsnet+
+2678,amazontennischannel,Tennis Channel Amazon Channel,{flatrate},Amazon
+2679,amasiantv,Amasian TV,{ads},Amasian TV
+2680,amazonanniduemila,Anni Duemila Amazon Channel,{flatrate},Amazon
+2681,amazonamasia,Amasia+ Amazon Channel,{flatrate},Amazon
+2682,picturehouses,Picturehouse Cinemas,{cinema},Picturehouse Cinemas
+2685,artify,Artify,"{flatrate,rent}",Artify
+40,chili,CHILI,"{buy,rent,ads}",CHILI
+285,amazonbbcplayer,BBC Player Amazon Channel,{flatrate},Amazon
+287,amazonbfiplayer,BFI Player Amazon Channel,{flatrate},Amazon
+289,amazoncinemax,Cinemax Amazon Channel,{flatrate},Amazon
+283,crunchyroll,Crunchyroll,"{ads,flatrate}",Crunchyroll
+2546,destinationcalcio,Destination Calcio,{free},Destination Calcio
+2240,gain,Gain,{flatrate},Gain
+296,amazonhayu,Hayu Amazon Channel,{flatrate},Amazon
+267,hopster,Hopster TV,{flatrate},Hopster TV
+1890,amazonhopster,Hopster Amazon Channel,{flatrate},Amazon
+250,horizon,Horizon,{flatrate},Horizon
+460,horrify,Horrify,{flatrate},Horrify
+1974,hoyts,Hoyts,{cinema},Hoyts
+631,hrti,HRTi,{flatrate},HRTi
+15,hulu,Hulu,{flatrate},Hulu
+437,hungamaplay,Hungama Play,"{rent,flatrate}",Hungama Play
+702,ibakatv,iBAKATV,{},iBAKATV
+1919,icctv,ICC.tv,{free},ICC.tv
+2564,hugendubel,Hugendubel,{buy},Hugendubel
+122,hotstar,Disney+,{flatrate},Disney+
+311,betv,Be TV Go,{flatrate},Be TV Go
+67,blim,Blim,{flatrate},Blim
+571,britishpathe,British Pathé TV,"{flatrate,free}",British Pathé TV
+1859,catalan,Catalan,{},Catalan
+52,cravetv,CraveTV,{flatrate},CraveTV
+85,dtv,dTV,"{flatrate,rent}",dTV
+307,globoplay,Globoplay,"{flatrate,free}",Globoplay
+362,gracenote,Gracenote,{},Gracenote
+86,gyao,GYAO,"{flatrate,free}",GYAO
+377,hotstardisneyplus,Hotstar Disney+,{flatrate},Hotstar Disney+
+146,icitoutv,iciTouTV,{flatrate},iciTouTV
+1744,amazoniconfilm,Icon Film Amazon Channel,{flatrate},Amazon
+587,amazonifcunlimited,IFC Amazon Channel,{flatrate},Amazon
+2056,appletvifcunlimited,IFC Films Unlimited Apple TV Channel,{flatrate},Apple TV
+548,iffrunleashed,IFFR Unleashed,"{flatrate,rent}",IFFR Unleashed
+160,iflix,iflix,{flatrate},iflix
+492,illicoweb,ILLICO,"{rent,flatrate}",ILLICO
+2105,imaginecinemas,Imagine Cinemas,{cinema},Imagine Cinemas
+252,imdbmeta,IMDb,{},IMDb
+318,adultswim,Adult Swim,"{flatrate,free}",Adult Swim
+319,altbalaji,Alt Balaji,{flatrate},Alt Balaji
+314,cbcgem,CBC Gem,{ads},CBC Gem
+315,hoichoi,Hoichoi,{free},Hoichoi
+238,imdb,Freevee,{ads},Freevee
+1737,amazonmadelen,INA  madelen Amazon Channel,{flatrate},Amazon
+598,amazonitvplus,ITV Amazon Channel,{flatrate},Amazon
+1726,amazoninfinity,Infinity Selection Amazon Channel,{flatrate},Amazon
+2404,amazonindieclub,Indie Club Amazon Channel,{flatrate},Amazon
+2499,amazonindiefilms,Indie Films by Realto Amazon Channel,{flatrate},Amazon
+2405,amazonindieflix,IndieFlix Shorts Amazon Channel,{flatrate},Amazon
+2407,amazonindiepix,IndiePix Unlimited Amazon Channel,{flatrate},Amazon
+110,infinity,Infinity+,"{rent,flatrate}",Infinity+
+154,insidekino,Inside Kino,{},Inside Kino
+1735,amazoninsomnia,Insomnia Amazon Channel,{flatrate},Amazon
+1797,insportstv,inSports TV,{flatrate},inSports TV
+104,internationalshowtimes,International Showtimes,{cinema},International Showtimes
+408,investigationdiscovery,Investigation Discovery,"{flatrate,free}",Investigation Discovery
+549,iplatv,IPLA,{rent},IPLA
+581,iqiyi,iQIYI,{flatrate},iQIYI
+704,irokotv,IROKOTV,{flatrate},IROKOTV
+41,itv,ITVX,"{flatrate,free}",ITVX
+2300,itvpremium,ITVX Premium,{flatrate},ITVX Premium
+511,iwanttfc,iWant,"{ads,flatrate,rent}",iWant
+2169,amazoniwonder,Iwonder Amazon Channel,{flatrate},Amazon
+1728,amazoniwonderfull,iWonder Full Amazon channel,{flatrate},Amazon
+1850,izzi,izzi,{flatrate},izzi
+2187,izzigo,izzi Go,{flatrate},izzi Go
+2500,amazonjidaigekisenmonch,Jidiaigeki Senmon Channel Amazon Channel,{flatrate},Amazon
+303,jinni,Jinni,{none},Jinni
+46,superpopcorn,Superpopcorn,{cinema},Superpopcorn
+324,cinemasalademande,Cinemas a la Demande,{rent},Cinemas a la Demande
+326,ctv,CTV,{ads},CTV
+220,jiocinema,Jio Cinema,{flatrate},Jio Cinema
+2336,jiohotstar,JioHotstar,"{flatrate,ads}",Disney+
+2330,joltfilm,Jolt Film,"{rent,buy}",Jolt Film
+304,joynde,Joyn,{ads},Joyn
+421,joyndeplus,Joyn Plus,{flatrate},Joyn
+1946,jsports,J SPORTS,{flatrate},J SPORTS
+88,juke,Juke,"{buy,rent}",Juke
+48,justoffers,JustOffers,"{buy,rent,flatrate,cinema,free,ads}",JustOffers
+2258,amazonkabeleins,Kabel Eins Classics Amazon Channel,{flatrate},Amazon
+2489,amazonccbkadokawa,KADOKAWA channel Amazon Channel,{flatrate},Amazon
+2556,kaleidescape,Kaleidescape,"{rent,buy}",Kaleidescape
+2165,amazonkanald,Kanal D Drama Amazon Channel,{flatrate},Amazon
+191,kanopy,Kanopy,"{flatrate,free}",Kanopy
+2504,amazonkyotoch,KANTELE DOGA CHANNEL Amazon Channel,{flatrate},Amazon
+2414,amazonkidgenius,Kartoon Channel Amazon Channel,{flatrate},Amazon
+1936,koreanbroadcastingsystem,KBS,{free},KBS
+2501,amazonkidsstation,Kids Station On Demand Amazon Channel,{flatrate},Amazon
+2415,amazonkidstream,Kidstream Amazon Channel,{flatrate},Amazon
+1969,kijknl,KIJK,"{ads,free}",KIJK
+2081,kika,KiKA,{free},KiKA
+2259,amazonkinderwelt,Kinderwelt Amazon Channel,{flatrate},Amazon
+2119,kinepolis,Kinepolis,{cinema},Kinepolis
+1927,kinobox,Kinobox,{ads},Kinobox
+346,kinocheck,KinoCheck,{},KinoCheck
+2135,kinofilmcollection,Kino Film Collection,{flatrate},Kino Film Collection
+2416,amazonkinofilmcollection,Kino Film Collection Amazon Channel,{flatrate},Amazon
+2502,amazonkinofilmsplus,kino films+ Amazon Channel,{flatrate},Amazon
+369,kinoheld,kinoheld,{},kinoheld
+640,kinonow,Kino Now,"{rent,buy}",Kino Now
+2221,kinoplex,Kinoplex,{cinema},Kinoplex
+117,kinopoisk,Kinopoisk,"{flatrate,buy}",Kinopoisk
+573,kinopop,KinoPop,{flatrate},KinoPop
+463,kirjastokino,Kirjastokino,"{free,ads}",Kirjastokino
+89,kividoo,Kividoo,{flatrate},Kividoo
+2285,justwatchtv,JustWatch TV,"{rent,free}",JustWatch TV
+333,my5,5,"{ads,free}",5
+332,vudufree,Fandango at Home Free,{ads},Fandango
+331,flixfling,FlixFling,"{flatrate,rent,buy}",FlixFling
+2206,kixi,Kixi,"{flatrate,ads}",Kixi
+2260,amazonkixi,Kixi Select Amazon Channel,{flatrate},Amazon
+624,kktv,KKTV,"{flatrate,ads}",KKTV
+1793,klassiki,Klassiki,{flatrate},Klassiki
+2335,kleaguetv,K League TV,{free},K League TV
+576,klikfilm,KlikFilm,{flatrate},KlikFilm
+525,knowledgenetwork,Knowledge Network,{free},Knowledge Network
+464,kocowa,Kocowa,{flatrate},Kocowa
+2413,amazonkcpglobal,Kocowa Amazon Channel,{flatrate},Amazon
+2503,amazonkoreandramach,Korean Drama Channel Amazon Channel,{flatrate},Amazon
+563,kpn,KPN,{flatrate},KPN
+2455,amazonvdpkunuspd97qw8aw6f,Kundalini Yoga TV Amazon Channel,{flatrate},Amazon
+310,lacinetek,LaCinetek,"{flatrate,rent,buy}",LaCinetek
+1992,laligaplus,LALIGA+,"{flatrate,buy}",LALIGA+
+1914,laligasportstv,LaLiga SportsTV,{flatrate},LaLiga SportsTV
+2080,amazonlaligatvhypermotion,LALIGA TV HYPERMOTION Amazon Channel,{flatrate},Amazon
+2096,landmarkcinemas,Landmark Cinemas,{cinema},Landmark Cinemas
+1840,lasestrellas,Las Estrellas,{flatrate},Las Estrellas
+518,latoile,La Toile,{rent},La Toile
+2506,amazonlnpmother,Laugh & Peace Mother Select Amazon Channel,{flatrate},Amazon
+275,laughoutloud,Laugh Out Loud,{ads},Laugh Out Loud
+183,launchingfilms,Launching Films,{},Launching Films
+2567,lbatv,LBATV,{flatrate},LBATV
+2456,amazonvdpleausek27fnk8074,Learn How to Run Amzon Channel,{flatrate},Amazon
+2145,legrandrex,Le Grand Rex,{cinema},Le Grand Rex
+2571,lemino,Lemino,{flatrate},Lemino
+2505,amazonlemino,Lemino Select Amazon Channel,{flatrate},Amazon
+1939,lepsitv,Lepsi TV,{flatrate},Lepsi TV
+1772,lequipe,L Equipe,{flatrate},L Equipe
+240,lumiere,Lumiere,{},Lumiere
+328,foxusa,Fox,{flatrate},Fox
+337,disneyplus,Disney Plus,{flatrate},Disney+
+334,amazonfilmtastic,Filmtastic Amazon Channel,{flatrate},Amazon
+544,libreflix,Libreflix,{free},Libreflix
+157,lifetime,Lifetime,"{flatrate,ads}",Lifetime
+284,lifetimemovieclub,Lifetime Movie Club,{flatrate},Lifetime Movie Club
+2089,amazonlifetimemovieclub,Lifetime Movie Club Amazon Channel,{flatrate},Amazon
+2055,appletvlifetimemovieclub,Lifetime Movie Club Apple TV Channel,{flatrate},Apple TV
+2075,amazonlifetimeplay,Lifetime Play Amazon Channel,{flatrate},Amazon
+2054,appletvlifetimeplay,Lifetime Play Apple TV Channel,{flatrate},Apple TV
+225,lightbox,Lightbox,"{flatrate,rent}",Lightbox
+1865,amazonligue1,Ligue 1 Amazon Channel,{flatrate},Amazon
+2230,ligue1pass,Ligue 1+,{flatrate},Ligue 1+
+625,linetv,LINE TV,"{flatrate,ads}",LINE TV
+561,lionsgateplay,Lionsgate Play,{flatrate},Lionsgate Play
+2074,amazonlionsgateplay,Lionsgate Play Amazon Channel,{flatrate},Amazon
+2053,appletvlionsgateplay,Lionsgate Play Apple TV Channel,{flatrate},Apple TV
+1790,lionsgateplus,Lionsgate Plus,{flatrate},Lionsgate Plus
+2358,amazonlionsgateplus,Lionsgate+ Amazon Channels,{flatrate},Amazon
+420,logotv,Logo TV,"{ads,flatrate}",Logo TV
+47,looke,Looke,"{buy,flatrate,rent}",Looke
+683,amazonlooke,Looke Amazon Channel,{flatrate},Amazon
+1788,amazonloveandpassion,Love and Passion Amazon Channel,{flatrate},Amazon
+608,amazonlovenature,Love Nature Amazon Channel,{flatrate},Amazon
+2052,appletvlovenature,Love Nature Apple TV Channel,{flatrate},Apple TV
+347,lumiereobs,Lumiere OBS,{},Lumiere OBS
+147,sixplay,M6+,{ads},M6+
+551,magellantv,Magellan TV,{flatrate},Magellan TV
+178,entertaintv,MagentaTV,"{flatrate,rent,buy}",MagentaTV
+1856,magentatv,Magenta TV,{flatrate},MagentaTV
+2412,magentatvplus,Magenta TV+,{flatrate},MagentaTV
+2417,amazonmagnolianetwork,Magnolia Network Amazon Channel,{flatrate},Amazon
+341,blutv,blutv,"{rent,flatrate}",blutv
+57,canalplay,Canal Play,{flatrate},Canal Play
+107,cinefil,Cinefil,{none},Cinefil
+144,clipfish,Clipfish,{ads},Clipfish
+2575,medimops,Medimops,{buy},Medimops
+2555,bloodstream,Bloodstream,{ads},Bloodstream
+94,dendy,Dendy Direct,"{rent,buy}",Dendy Direct
+16,huluplus,Hulu Plus,{flatrate},Hulu
+388,letterboxd,Letterboxd,{none},Letterboxd
+259,magnoliaselects,Magnolia Selects,{flatrate},Magnolia Selects
+2418,amazonmagnoliaselects,Magnolia Selects Amazon Channel,{flatrate},Amazon
+482,manoramamax,ManoramaMax,{flatrate},ManoramaMax
+2177,amazonmanoramamax,ManoramaMAX Amazon Channel,{flatrate},Amazon
+2123,marcustheatres,Marcus Theatres,{cinema},Marcus Theatres
+2420,amazonmarqueetv,Marquee TV Amazon Channel,{flatrate},Amazon
+568,marthastewart,Martha Stewart TV,{flatrate},Martha Stewart TV
+1819,matching,Matching,{flatrate},Matching
+6,maxdome,Maxdome,{flatrate},maxdome
+20,maxdomestore,maxdome Store,"{rent,buy}",maxdome
+139,maxgo,Max Go,{flatrate},Max Go
+2472,amazonmax,HBO Max  Amazon Channel,{flatrate},Amazon
+483,maxstream,MAX Stream,"{flatrate,free}",MAX Stream
+1938,mbckorea,MBC,"{free,ads}",MBC
+2495,amazondizm,MBS Dougaizm Select Amazon Channel,{flatrate},Amazon
+221,mediabiz,Mediabiz,{},Mediabiz
+108,mediasetpremium,Mediaset Premium Play,"{flatrate,rent,buy}",Mediaset Premium Play
+98,megabox,Megabox,{cinema},Megabox
+697,mejane,meJane,{rent},meJane
+343,amazonbetplus,Bet+ Amazon Channel,{flatrate},Amazon
+242,meo,Meo,{rent},Meo
+2302,mercadoplay,Mercado Play,{ads},Mercado Play
+585,metrograph,Metrograph,{flatrate},Metrograph
+588,amazonmgm,MGM Amazon Channel,{flatrate},Amazon
+34,epix,MGM Plus,{flatrate},MGM Plus
+583,amazonepix,MGM+ Amazon Channel,{flatrate},Amazon
+1851,mlsseasonpass,MLS on Apple TV,{flatrate},MLS on Apple TV
+2142,appletvmgmplus,MGM+ Apple TV Channel,{flatrate},Apple TV
+636,rokuchannelepix,MGM Plus Roku Premium Channel,{flatrate},Roku
+427,mhzchoice,Mhz Choice,"{buy,flatrate}",Mhz Choice
+2421,amazonmhzchoice,MHz Choice Amazon Channel,{flatrate},Amazon
+68,microsoft,Microsoft Store,"{buy,rent}",Microsoft Store
+1897,amazonmidnight,MIDNIGHT FACTORY Amazon Channel,{flatrate},Amazon
+1960,midnightpulp,Midnight Pulp,"{flatrate,ads}",Midnight Pulp
+2367,amazoncontv,Midnight Pulp Amazon Channel,{flatrate},Amazon
+456,mitele,Mitele ,{flatrate},Mitele 
+2139,mk2,mk2,{cinema},mk2
+1877,mlbnetwork,MLB Network,{flatrate},MLB Network
+1769,mlbtv,MLB TV,{flatrate},MLB TV
+1867,amazonmlbtv,MLB.TV Amazon Channel,{flatrate},Amazon
+2261,amazonmoconomy,Moconomy Amazon Channel,{flatrate},Amazon
+1830,molatv,MOLA TV,{},MOLA TV
+1967,molotovtv,Molotov TV,"{flatrate,ads}",Molotov TV
+2533,mometu,Mometu,{ads},Mometu
+2283,monomax,Monomax,{flatrate},Monomax
+2419,amazonmandn,Monsters and Nightmares Amazon Channel,{flatrate},Amazon
+1844,morethansportstv,More Than Sports TV,{free},More Than Sports TV
+557,moretv,More TV,"{ads,flatrate}",More TV
+410,motortrend,Motor Trend,{flatrate},Motor Trend
+601,amazonmotortrend,MotorTrend Amazon Channel,{flatrate},Amazon
+2262,amazonmotorvision,Motorvision TV Amazon Channel,{flatrate},Amazon
+2291,amazonmoviecult,Moviecult Amazon Channel,{flatrate},Amazon
+706,amazonmoviedome,Moviedome Plus Amazon Channel,{flatrate},Amazon
+301,movielens,Movielens,{none},Movielens
+2141,amazonmgmplus,MGM Plus Amazon Channel,{flatrate},Amazon
+345,canalseries,Canal+ Séries,{flatrate},Canal+ Séries
+349,kinoondemand,Kino on Demand,{rent},Kino on Demand
+2565,movieme,MovieMe,{rent},MovieMe
+562,moviesaints,MovieSaints,{rent},MovieSaints
+2445,amazontribecashortlist,MovieSphere+ Amazon Channel,{flatrate},Amazon
+2332,moviestillsdb,Movie StillsDB,{none},Movie StillsDB
+81,movietickets,Movietickets,{cinema},Movietickets
+2372,movistardeportes,Movistar Plus+ Deportes,{flatrate},Movistar Plus+ Deportes
+2241,movistarott,Movistar Plus+,{flatrate},Movistar Plus+
+149,movistar,Movistar Plus+ Ficción Total ,{flatrate},Movistar Plus+ Ficción Total 
+339,movistarplay,MovistarTV,"{rent,flatrate}",MovistarTV
+453,mtv,MTV,{flatrate},MTV
+2360,amazonmtvhits,MTV Hits Amazon Channel,{flatrate},Amazon
+2029,mtvfi,MTV Katsomo,{flatrate},MTV Katsomo
+1711,amazonmtvplus,MTV Plus Amazon Channel,{flatrate},Amazon
+11,mubi,MUBI,"{rent,flatrate}",MUBI
+201,amazonmubi,MUBI Amazon Channel,{flatrate},Amazon
+2196,multikino,MultiKino,{cinema},MultiKino
+2184,amazonmuseumtv,Museum Tv Amazon Channel,{flatrate},Amazon
+515,mxplayer,MX Player,{ads},MX Player
+1972,myfilmfriend,myfilmfriend,{free},myfilmfriend
+2508,amazonmyhero,MY HERO Amazon Channel,{flatrate},Amazon
+2483,mymoviesone,MYmovies One,{flatrate},MYmovies One
+264,myoutdoortv,MyOutdoorTV,"{flatrate,free}",MyOutdoorTV
+2423,amazonmotv,MyOutdoor TV Amazon Channel,{flatrate},Amazon
+145,mytf1vod,MyTF1vod,"{rent,buy}",MyTF1vod
+2183,amazonmyzentv,MyZen TV Amazon Channel,{flatrate},Amazon
+291,amazonmzchoice,MZ Choice Amazon Channel,{flatrate},Amazon
+2185,amazonnammaflix,NammaFlix Amazon Channel,{flatrate},Amazon
+1964,nationalgeographic,National Geographic,{ads},National Geographic
+170,navercinema,Naver Cinema,{cinema},Naver Cinema
+96,naverstore,Naver Store,"{buy,rent}",Naver Store
+1761,nbaleaguepass,NBA League Pass,{flatrate},NBA League Pass
+1869,amazonnbalp,NBA League Pass Amazon Channel,{flatrate},Amazon
+350,appletvplus,Apple TV,{flatrate},Apple TV
+357,docplay,DocPlay,{flatrate},DocPlay
+106,movieinsider,Movie Insider,{none},Movie Insider
+1980,nbalpyoutube,NBA League Pass on YouTube TV,{flatrate},NBA League Pass on YouTube TV
+1880,nbarakuten,NBA Rakuten,{flatrate},NBA Rakuten
+1868,amazonnbatv,NBA TV Amazon Channel,{flatrate},Amazon
+79,nbc,NBC,{flatrate},NBC
+2507,amazonmensneco,NECO Plus Amazon Channel,{flatrate},Amazon
+273,neontvnz,Neon TV,"{flatrate,rent}",Neon TV
+8,netflix,Netflix,{flatrate},Netflix
+459,netflixfree,Netflix Free,{free},Netflix Free
+175,netflixkids,Netflix Kids,{flatrate},Netflix
+1796,netflixbasicwithads,Netflix Standard with Ads,{flatrate},Netflix
+19,netmovies,NetMovies,{flatrate},NetMovies
+28,netzkino,Netzkino,{ads},Netzkino
+2263,amazonnetzkinoselect,Netzkino Select Amazon Channel,{flatrate},Amazon
+641,nexoplus,Nexo Plus,"{flatrate,rent}",Nexo Plus
+441,nfb,NFB,{free},NFB
+2530,amazonnfdc,NFDC Amazon Channel,{flatrate},Amazon
+1762,nflgamepass,NFL Game Pass,{flatrate},NFL Game Pass
+2227,amazonnflgamepass,NFL Game Pass Amazon Channel,{flatrate},Amazon
+1982,nflgpyoutube,NFL GamePass on YouTube,{flatrate},NFL GamePass on YouTube
+2213,nflnetwork,NFL Network,{flatrate},NFL Network
+1760,nflplus,NFL Plus,{flatrate},NFL Plus
+1947,nflsundayticket,NFL Sunday Ticket,{flatrate},NFL Sunday Ticket
+2199,nhkjapan,NHK,"{free,ads}",NHK
+2509,amazonnhkkodomopark,NHK Kodomo Park Amazon Channel,{flatrate},Amazon
+2510,amazonnhkondemand,NHK On Demand Amazon Channel,{flatrate},Amazon
+1786,nhlnetwork,NHL Network,{flatrate},NHL Network
+1843,nhltv,NHL TV,{flatrate},NHL TV
+455,nightflightplus,Night Flight Plus,{flatrate},Night Flight Plus
+2511,amazonnihoneigach,Nihon Eiga Net Amazon Channel,{flatrate},Amazon
+472,nlziet,NLZIET,{flatrate},NLZIET
+262,amazonnoggin,Noggin Amazon Channel,{flatrate},Amazon
+516,noovo,Noovo,"{ads,free}",Noovo
+359,mediasetplay,Mediaset Infinity,"{rent,flatrate}",Mediaset Infinity
+621,danskfilmskat,Nordisk Film+,{flatrate},Nordisk Film+
+1937,nosnl,NOS,"{free,ads}",NOS
+2111,notoriouscinemas,Notorious Cinemas,{cinema},Notorious Cinemas
+580,novaplay,Nova Play,{ads},Nova Play
+2313,novocinemas,Novo Cinemas,{cinema},Novo Cinemas
+39,nowtv,Now TV,{flatrate},Now TV
+591,nowtvcinema,Now TV Cinema,{flatrate},Now TV Cinema
+1808,npo1,NPO 1,{free},NPO 1
+1817,npo2,NPO 2,{free},NPO 2
+1984,npo3,NPO 3,"{free,ads}",NPO 3
+1986,npoplus,NPO Plus,{flatrate},NPO Plus
+360,npostart,NPO Start,{ads},NPO Start
+1818,npozapp,NPO Zapp,{free},NPO Zapp
+442,nrk,NRK TV,{free},NRK TV
+66,filminlatino,Nuestro Cine MX,{flatrate},Nuestro Cine MX
+1915,nwslsoccercom,NWSL+,{free},NWSL+
+308,o2tvcz,O2 TV,"{flatrate,rent}",O2 TV
+2121,ocine,Ociné,{cinema},Ociné
+56,ocsgo,OCS Go,{flatrate},OCS Go
+2128,odeoncinemas,ODEON Cinemas,{cinema},ODEON Cinemas
+2122,odeonmulticines,Odeon Multicines,{cinema},Odeon Multicines
+574,oiplay,Oi Play,{flatrate},Oi Play
+2264,amazonokidoki,Okidoki Amazon Channel,{flatrate},Amazon
+115,okko,Okko,"{flatrate,rent,buy}",Okko
+499,oldflix,Oldflix,{flatrate},Oldflix
+233,oldies,Oldies,{none},Oldies
+2200,olympicscom,Olympics.com,{free},Olympics.com
+32,omdb,OMDB,{none},OMDB
+2549,onair,On Air ,{buy},On Air 
+575,ondemandkorea,OnDemandKorea,{rent},OnDemandKorea
+1820,onefootball,OneFootball,{free},OneFootball
+2536,oneplay,Oneplay,{flatrate},Oneplay
+61,orange,Orange VOD,"{rent,buy}",Orange VOD
+2152,orfkids,ORF KIDS,{ads},ORF KIDS
+2151,orfon,ORF ON,{ads},ORF ON
+629,osn,OSN+,{flatrate},OSN+
+626,otta,Otta,{flatrate},Otta
+2424,amazonoutside,Outside TV Features Amzon Channel,{flatrate},Amazon
+1976,outsideonline,Outside Watch,{ads},Outside Watch
+607,amazonouttv,OUTtv Amazon Channel,{flatrate},Amazon
+2044,appletvouttv,OUTtv Apple TV Channel,{flatrate},Apple TV
+1953,ovationtv,Ovation TV,{free},Ovation TV
+433,ovid,OVID,{flatrate},OVID
+487,oxygen,OXYGEN,{flatrate},OXYGEN
+434,ozflix,OzFlix,"{buy,rent}",OzFlix
+2146,palacecinemas,Palace Cinemas,{cinema},Palace Cinemas
+2426,amazonpannacooking,Panna Cooking Amazon Channel,{flatrate},Amazon
+177,pantaflix,Pantaflix,{rent},Pantaflix
+247,pantaya,Pantaya,{flatrate},Pantaya
+2539,appletvpantaya,Pantaya appletv channel,{flatrate},Apple TV
+418,paramountnetwork,Paramount Network,{flatrate},Paramount Network
+187,paramountpictures,Paramount Pictures,{none},Paramount Pictures
+531,paramountplus,Paramount Plus,{flatrate},Paramount+
+582,amazonparamountplus,Paramount+ Amazon Channel,{flatrate},Amazon
+1853,appletvparamountplus,Paramount Plus Apple TV Channel ,{flatrate},Apple TV
+2304,paramountplusbasicwithads,Paramount Plus Basic with Ads,{flatrate},Paramount+
+2475,amazonpplusmtv,Paramount+ MTV Amazon Channel,{flatrate},Amazon
+2474,amazonpplusoriginals,Paramount+ Originals Amazon Channel,{flatrate},Amazon
+2303,paramountpluspremium,Paramount Plus Premium,{flatrate},Paramount+
+633,rokuchannelparamountplus,Paramount+ Roku Premium Channel,{flatrate},Roku
+1770,paramountplusshowtime,Paramount+ with Showtime,{flatrate},Paramount+
+1739,amazonpash,Pash Amazon Channel,{flatrate},Amazon
+2427,amazonpassionflix,Passionflix Amazon Channel,{flatrate},Amazon
+1870,amazonwarnerpass,Pass Warner Amazon Channel,{flatrate},Amazon
+2192,pathenlcinemas,Pathe Cinemas,{cinema},Pathe Cinemas
+71,pathe,Pathé Thuis,"{rent,buy}",Pathé Thuis
+618,paus,Paus,{free},Paus
+209,pbs,PBS,"{free,flatrate}",PBS
+2429,amazonpbsamerica,PBS America Amazon Channel,{flatrate},Amazon
+2430,amazonpbsdoc,PBS Documentaries Amazon Channel,{flatrate},Amazon
+293,amazonpbskids,PBS Kids Amazon Channel,{flatrate},Amazon
+2431,amazonpbsliving,PBS Living Amazon Channel,{flatrate},Amazon
+294,amazonpbsmasterpiece,PBS Masterpiece Amazon Channel,{flatrate},Amazon
+365,bravotv,Bravo TV,"{flatrate,free}",Bravo TV
+386,peacocktv,Peacock Premium,{flatrate},Peacock Premium
+387,peacocktvpremium,Peacock Premium Plus,{flatrate},Peacock Premium Plus
+2383,philo,Philo,{flatrate},Philo
+637,pickboxnow,Pickbox NOW,{flatrate},Pickbox NOW
+1873,pickxsports,Pickx Sports,{flatrate},Pickx Sports
+451,picl,Picl,{rent},Picl
+2166,amazonpinguinitos,Pinguinitos Amazon Channel,{flatrate},Amazon
+2428,amazonpbo,Pinoy Box Office Amazon Channel,{flatrate},Amazon
+2432,amazonpixl,PixL Amazon Channel,{flatrate},Amazon
+2190,plaionpictures,Plaion Pictures,{cinema},Plaion Pictures
+2473,amazonplanetearth,Planet Earth Amazon Channel,{flatrate},Amazon
+1740,amazonplanethorror,Planet Horror Amazon Channel,{flatrate},Amazon
+505,playerpl,Player,"{flatrate,ads}",Player
+2160,amazonplaykids,Playkids Learning Amazon Channel,{flatrate},Amazon
+1872,playsports,Play Sports,{flatrate},Play Sports
+18,playstation,PlayStation,"{rent,buy}",PlayStation
+691,playsuisse,Play Suisse,{flatrate},Play Suisse
+90,plejmo,Plejmo,"{buy,rent}",Plejmo
+538,plex,Plex,"{free,rent}",Plex
+2077,justwatchplexchannel,Plex Channel,{free},Plex Channel
+1922,plexfast,Plex Live TV,{ads},Plex
+1945,plexplayer,Plex Player,{free},Plex
+2513,amazonplusgaga,Plus GAGA Amazon Channel,{flatrate},Amazon
+2514,amazonplusshochiku,Plus Shochiku Amazon Channel,{flatrate},Amazon
+300,plutotv,Pluto TV,{ads},Pluto TV
+1965,plutotvfast,Pluto TV Live,{fast},Pluto TV
+599,amazonpokemon,Pokémon Amazon Channel,{flatrate},Amazon
+2363,polsatboxgo,Polsat Box Go,{flatrate},Polsat Box Go
+690,amazonpongalo,Pongalo Amazon Channel  ,{flatrate},Amazon
+95,pooq,Pooq,"{buy,flatrate}",Pooq
+161,popcorn,Popcorn,{cinema},Popcorn
+241,popcornflix,Popcornflix,{ads},Popcornflix
+522,popcorntimes,Popcorntimes,{ads},Popcorntimes
+1832,popflick,Popflick,{flatrate},Popflick
+570,premier,Premier,"{flatrate,free}",Premier
+366,foodnetwork,Food Network,"{flatrate,free}",Food Network
+368,indieflix,IndieFlix,"{flatrate,free}",IndieFlix
+1901,premierebrazil,Premiere,{flatrate},Premiere
+1903,amazonpremierebr,Premiere Amazon Channel,{flatrate},Amazon
+2307,premieremax,Premiere Max,"{rent,buy}",Premiere Max
+1752,premiersports,Premier Sports,{flatrate},Premier Sports
+2104,amazonpremiersports,Premier Sports Amazon Channel,{flatrate},Amazon
+2102,premierycanalplus,Premiery Canal+,"{rent,buy}",Premiery Canal+
+23,presto,presto,{flatrate},presto
+1928,iprima,Prima Plus,"{ads,flatrate}",Prima Plus
+2265,amazonprosiebenfun,ProSieben Fun Amazon Channel,{flatrate},Amazon
+1923,prosiebenmaxx,ProSieben MAXX,"{free,ads}",ProSieben MAXX
+1822,prtv,PRTV,{},PRTV
+638,publicdomainmovies,Public Domain Movies,{free},Public Domain Movies
+342,puhutv,puhutv,{ads},puhutv
+278,pureflix,Pure Flix,{flatrate},Pure Flix
+2266,amazonqelloconcerts,Qello Concerts by Stingray Amazon Channel,{flatrate},Amazon
+552,qftplayer,QFT Player,"{flatrate,rent,buy}",QFT Player
+274,qubit,QubitTV,{flatrate},QubitTV
+2566,amazonqueensclub,Queens club Amazon Channel,{flatrate},Amazon
+2267,amazonqueercinema,Queer Cinemab Amazon Channel,{flatrate},Amazon
+374,quibi,Quibi,{flatrate},Quibi
+22,quickflix,Quickflix,{flatrate},Quickflix
+24,quickflixstore,Quickflix Store,"{rent,buy}",Quickflix Store
+1753,rainews,Rai News,{ads},Rai News
+222,raiplay,Rai Play,{ads},Rai Play
+1801,raisport,Rai Sport,{},Rai Sport
+2570,rakuten,Rakuten,{buy},Rakuten
+35,wuaki,Rakuten TV,"{rent,buy,flatrate}",Rakuten
+344,viki,Rakuten Viki,"{flatrate,ads}",Rakuten
+114,rambler,Rambler,{cinema},Rambler
+1749,ran,Ran,{ads},Ran
+1896,amazonrarovideo,Raro Video Amazon Channel,{flatrate},Amazon
+1784,rds,RDS,{flatrate},RDS
+2148,readingcinemas,Reading Cinemas,{cinema},Reading Cinemas
+14,realeyz,realeyz,{flatrate},realeyz
+279,redbox,Redbox,"{buy,rent}",Redbox
+2292,amazonredlightcinema,Redlight Cinema Amazon Channel,{flatrate},Amazon
+2434,amazonreelz,REELZ+ Amazon Channel,{flatrate},Amazon
+2117,regalcinemas,Regal Cinemas,{cinema},Regal Cinemas
+1920,reservaimovision,Reserva Imovision,"{rent,buy}",Reserva Imovision
+2157,amazonimovision,Reserva Imovision Amazon Channel,{flatrate},Amazon
+446,retrocrush,Retrocrush,{flatrate},Retrocrush
+295,amazonviewster,RetroCrush Amazon Channel,{flatrate},Amazon
+1948,reveel,Reveel,{free},Reveel
+473,revry,Revry,"{flatrate,ads}",Revry
+2435,amazonrevry,Revry Amazon Channel,{flatrate},Amazon
+2170,amazonrialto,Rialto Amazon Channel,{flatrate},Amazon
+1755,rmcsport,RMC Sport,{flatrate},RMC Sport
+485,roosterteeth,Rooster Teeth,"{flatrate,ads}",Rooster Teeth
+168,rottentomatoes,Rotten Tomatoes,{},Rotten Tomatoes
+2577,royalfilms,Royal Films,{cinema},Royal Films
+461,rtbf,RTBF Auvio,{free},RTBF Auvio
+1892,amazonrtlcrime,RTL Crime Amazon Channel,{flatrate},Amazon
+2268,amazonlivingrtl,RTL Living Amazon Channel,{flatrate},Amazon
+1712,amazonrtlpassion,RTL Passion Amazon Channel,{flatrate},Amazon
+572,rtlplay,RTL Play,{ads},RTL+
+298,tvnowde,RTL+,"{flatrate,ads}",RTL+
+2578,amazonrtl,RTL+ Max Amazon Channel,{flatrate},Amazon
+452,rtpplay,RTPplay,{free},RTPplay
+541,rtve,rtve,{free},rtve
+2547,rugbypasstv,RugbyPass TV,{free},RugbyPass TV
+1875,runtime,Runtime,{ads},Runtime
+338,ruutu,Ruutu,"{free,flatrate}",Ruutu
+2436,amazonryanfriends,Ryan and Friends Plus Amazon Channel,{flatrate},Amazon
+564,salto,SALTO,{flatrate},SALTO
+1748,sat1,Sat 1,{},Sat 1
+2269,amazonsat1emotions,Sat.1 emotions Amazon Channel,{flatrate},Amazon
+1935,seoulbroadcastingsystem,SBS,"{flatrate,free}",SBS
+132,sbsondemand,SBS On Demand,{ads},SBS On Demand
+1849,sbtsports,SBT Sports,{free},SBT Sports
+180,scannain,Scannain,{},Scannain
+1883,tvingkorea,TVING,{flatrate},TVING
+373,go3,Go3,"{rent,flatrate}",Go3
+411,sciencechannel,Science Channel,"{flatrate,free}",Science Channel
+185,screambox,Screambox,{flatrate},Screambox
+202,amazonscreambox,Screambox Amazon Channel,{flatrate},Amazon
+2069,amazonscreenpix,ScreenPix Amazon Channel ,{flatrate},Amazon
+2050,appletvscreenpix,ScreenPix Apple TV Channel,{flatrate},Apple TV
+2087,sensacine,SensaCine,{},SensaCine
+2438,amazonsensical,Sensical Amazon Channel,{flatrate},Amazon
+696,serially,Serially,{ads},Serially
+1954,servustvon,ServusTV On,"{ads,free}",ServusTV On
+2333,servustvshowroom,ServusTV Showroom,{ads},ServusTV Showroom
+2293,amazonprosieben,Seven Entertainment Amazon Channel,{flatrate},Amazon
+426,sfanytime,SF Anytime,{buy},SF Anytime
+193,sfrplay,SFR Play,{flatrate},SFR Play
+513,shadowz,Shadowz,{flatrate},Shadowz
+1736,amazonshadowz,Shadowz Amazon Channel,{flatrate},Amazon
+1715,shahidvip,Shahid VIP,{flatrate},Shahid VIP
+474,shemaroome,ShemarooMe,"{flatrate,ads}",ShemarooMe
+2540,shift72,Shift72,{flatrate},Shift72
+45,shomi,Shomi,{flatrate},Shomi
+688,amazonshorts,ShortsTV Amazon Channel,{flatrate},Amazon
+600,amazonshoutfactory,Shout! Factory Amazon Channel,{flatrate},Amazon
+439,shoutfactorytv,Shout! Factory TV,{free},Shout! Factory TV
+2143,showcasecinemas,Showcase Cinemas,{cinema},Showcase Cinemas
+55,showmax,ShowMax,{flatrate},Showtime
+37,showtime,Showtime,{flatrate},Showtime
+203,amazonshowtime,Showtime Amazon Channel,{flatrate},Amazon
+675,appletvshowtime,Showtime Apple TV Channel,{flatrate},Apple TV
+632,rokuchannelshowtime,Showtime Roku Premium Channel,{flatrate},Roku
+99,shudder,Shudder,{flatrate},Shudder
+204,amazonshudder,Shudder Amazon Channel,{flatrate},Amazon
+2049,appletvshudder,Shudder Apple TV Channel,{flatrate},Apple TV
+1900,sicportugal,SIC,{free},SIC
+1713,amazonsilverline,Silverline Amazon Channel,{flatrate},Amazon
+210,skysvod,Sky,"{flatrate,buy}",Sky/WOW
+378,ninenow,9Now,{free},9Now
+2319,amazonanimalplanet,Animalplanet Amazon Channel,{flatrate},Amazon
+385,binge,BINGE,{flatrate},BINGE
+136,boxofficemojo,Box Office Mojo,{},Box Office Mojo
+382,canalplusdisneyplus,Canal+ Disney+,{flatrate},Canal+ Disney+
+381,canalplus,Canal+,{flatrate},Canal+
+111,comingsoonit,Comingsoonit,{cinema},Comingsoonit
+129,disneylife,DisneyLife,{flatrate},DisneyLife
+2094,disneytheatrical,Disney Theatrical,{cinema},Disney Theatrical
+335,eidr,EIDR,{},EIDR
+2088,flicks,Flicks,{},Flicks
+399,animalplanet,Animal Planet,"{flatrate,free}",Animal Planet
+2351,ardsr,SR ARD Channel,{free},SR ARD Channel
+2374,amazondiscoverymax,Discovery Max Amazon Channel,{flatrate},Amazon
+2375,amazondocclub,Sundance Now Amazon channel,{flatrate},Amazon
+2381,amazondplusid,Discovery plus ID Amazon Channel,{flatrate},Amazon
+2399,amazonfoodnetwork,Food network Amazon Channel,{flatrate},Amazon
+2554,amazonfoxone,FOX One Amazon Channel,{flatrate},Amazon
+532,aha,aha,"{flatrate,ads}",aha
+1714,amazonaxnsony,Sony AXN Amazon Channel,{flatrate},Amazon
+612,amazonurbanmovie,ALLWAYSBLK Amazon Channel,{flatrate},Amazon
+2447,amazontrvl,Trvl Amazon Channel,{flatrate},Amazon
+695,dazn,DAZN,"{flatrate,free}",DAZN
+135,iview,ABC iview,{free},ABC iview
+156,aetv,A&E,"{flatrate,ads}",A&E
+1751,beinsports,beIN SPORTS,{flatrate},beIN SPORTS
+1884,abematv,ABEMA,{flatrate},ABEMA
+1891,amazonalleskino,alleskino Amazon Channel,{flatrate},Amazon
+1895,amazonanimegeneration,Anime Generation Amazon Channel,{flatrate},Amazon
+1887,amazonbrutxfr,BrutX Amazon Channel,{flatrate},Amazon
+547,alamoondemand,Alamo on Demand,"{buy,rent}",Alamo on Demand
+1898,amazonminitv,Amazon MX Player,{ads},Amazon
+1912,apollofilms,Apollo,{buy},Apollo
+1902,ardplus,ARD Plus,{flatrate},ARD
+1911,ballysports,Bally Sports,{flatrate},Bally Sports
+1958,adtv,AD tv,{ads},AD tv
+1961,allente,Allente,{flatrate},Allente
+1988,brollie,Brollie,{ads},Brollie
+1975,cinemark,Cinemark,{cinema},Cinemark
+1978,cinepoliscinema,Cinepolis Cinemas,{cinema},Cinepolis Cinemas
+1985,citytv,Citytvplus,{flatrate},Citytvplus
+1968,amazoncrunchyroll,Crunchyroll Amazon Channel,{flatrate},Amazon
+2028,dfbplay,DFB Play,{free},DFB Play
+1977,amazondiscoverypluspremium,Discovery+ TNT Sports Amazon Channel,{flatrate},Amazon
+2086,bandplay,Bandplay,{free},Bandplay
+2137,arthausplus,Arthaus+,{flatrate},Arthaus+
+2114,atv,ATV,"{ads,free}",ATV
+2134,amazonaxnblack,AXN Black Amazon Channel,{flatrate},Amazon
+2120,bbtheatres,B&B Theatres,{cinema},B&B Theatres
+2129,byutv,BYUtv,{free},BYUtv
+2144,cgrcinemas,CGR Cinémas,{cinema},CGR Cinémas
+2140,pathecinemas,Cinemas Pathe,{cinema},Cinemas Pathe
+2125,cineplexde,Cineplex DE,{cinema},Cineplex DE
+336,skyes,Sky España,{flatrate},Sky/WOW
+29,skygo,Sky Go,{flatrate},Sky/WOW
+586,skykids,Sky Kids,{flatrate},Sky/WOW
+2225,skyperfectvjapan,SKY PerfecTV!,{flatrate},Sky/WOW
+2150,skymas,Sky+,{flatrate},Sky/WOW
+1773,skyshowtime,SkyShowtime,{flatrate},Sky/WOW
+4,skysnap,Skysnap,"{buy,rent}",Sky/WOW
+703,skysport,Sky Sport,{flatrate},Sky/WOW
+2208,skysports,Sky Sports,{flatrate},Sky/WOW
+130,skystore,Sky Store,"{rent,buy}",Sky/WOW
+321,skyx,Sky X,{flatrate},Sky/WOW
+2457,amazonvdpsleustp3c4418sz1,Sleep Sounds & Meditation Amazon Channel,{flatrate},Amazon
+1810,slingtvblue,Sling TV Blue,{flatrate},Sling TV Blue
+1809,slingtvorange,Sling TV Orange,{flatrate},Sling TV Orange
+299,slingtv,Sling TV Orange and Blue,{flatrate},Sling TV Orange and Blue
+1878,slingsportsextra,Sling TV Sports Extras,{flatrate},Sling TV Sports Extras
+276,smithsonianchannel,Smithsonian Channel,"{flatrate,free}",Smithsonian Channel
+609,amazonsmithsonian,Smithsonian Channel Amazon Channel,{flatrate},Amazon
+330,snagfilms,Snag Films,{free},Snag Films
+2270,amazonsonyentv,Sony Amazon Channel,{flatrate},Amazon
+237,sonyliv,Sony Liv,"{flatrate,ads}",Sony Liv
+2161,amazonsonyone,Sony One Amazon Channel,{flatrate},Amazon
+2083,sonypictures,Sony pictures,{cinema},Sony pictures
+2180,amazonsonypictures,Sony Pictures Amazon Channel,{flatrate},Amazon
+389,sooner,Sooner,"{flatrate,buy,rent}",Sooner
+1757,amazonrealeyz,Sooner Amazon Channel,{flatrate},Amazon
+498,southpark,South Park,{ads},South Park
+521,spamflix,Spamflix,{rent},Spamflix
+486,spectrumondemand,Spectrum On Demand,{flatrate},Spectrum On Demand
+2271,amazondespiegel,Spiegel Geschichte Amazon Channel,{flatrate},Amazon
+699,sportone,Sport1,{ads},Sport1
+1932,sportoneextra,Sport1 Extra,"{flatrate,buy}",Sport1 Extra
+1876,sportoneplus,Sport1+,{flatrate},Sport1+
+1831,sportall,Sportall,{flatrate},Sportall
+1925,sportbildde,SPORTBILD,"{ads,free}",SPORTBILD
+1941,sportdeutschland,Sporteurope.TV,"{flatrate,free}",Sporteurope.TV
+1758,sportdigital,Sportdigital,{},Sportdigital
+2272,amazonsportdigital,Sportdigital Amazon Channel,{flatrate},Amazon
+2391,sportdigitalplus,SPORTDIGITAL+,{flatrate},SPORTDIGITAL+
+1842,sportitalia,Sportitalia,{free},Sportitalia
+1721,sportschau,Sportschau,{},Sportschau
+1716,sportsdb,TheSportsDB,{},TheSportsDB
+282,sportsillustrated,Sports Illustrated,{flatrate},Sports Illustrated
+1983,amazonsportsnet,Sportsnet Amazon Channel,{flatrate},Amazon
+2133,sportsonmax,Sports on Max,{flatrate},Sports on Max
+1874,sporttvpt,Sport TV,{flatrate},Sport TV
+1913,sportv,SporTV,{flatrate},SporTV
+1879,spotvnow,SPOTV NOW,{flatrate},SPOTV NOW
+545,spuul,Spuul,{free},Spuul
+2548,srmgmplus,MGM+,{flatrate},MGM+
+1792,ssportplus,S Sport Plus,{flatrate},S Sport Plus
+606,amazontvfavouritesca,StackTV Amazon Channel,{flatrate},Amazon
+21,stan,Stan,{flatrate},Stan
+2112,starplex,Starplex,{cinema},Starplex
+619,starplus,Star Plus,{flatrate},Star Plus
+43,starz,Starz,{flatrate},Starz
+1794,amazonstarz,Starz Amazon Channel,{flatrate},Amazon
+1855,appletvstarz,Starz Apple TV Channel,{flatrate},Apple TV
+630,starzplay,STARZPLAY,{flatrate},Starz
+2072,starzplaysports,STARZPLAY Sports,{flatrate},STARZPLAY Sports
+634,rokuchannelstarz,Starz Roku Premium Channel,{flatrate},Roku
+2294,amazonallgoodvibes,Stingray All good vibes Amazon Channel,{flatrate},Amazon
+2158,amazonstingray,Stingray Amazon Channel,{flatrate},Amazon
+2273,amazonstingrayclassica,Stingray Classica Amazon Channel,{flatrate},Amazon
+2274,amazonstingraydjazz,Stingray Djazz Amazon Channel,{flatrate},Amazon
+2275,amazonstingraykaraoke,Stingray Karaoke Amazon Channel,{flatrate},Amazon
+2174,amazonstrandreleasing,Strand Releasing Amazon Channel,{flatrate},Amazon
+578,strim,Strim,{flatrate},Strim
+1806,amazonstudiocanalpresentsallstars,Studiocanal Presents ALLSTARS Amazon Channel,{flatrate},Amazon
+1747,amazonstudiocanalpresents,Studiocanal Presents Amazon Channel,{flatrate},Amazon
+642,appletvstudiocanal,STUDIOCANAL PRESENTS Apple TV Channel,{flatrate},Apple TV
+1805,amazonstudiocanalpresentsmoviecult,Studiocanal Presents MOVIECULT Amazon Channel,{flatrate},Amazon
+2479,stupidco,Stupid Co,{free},Stupid Co
+593,stvplayer,STV Player,{ads},STV Player
+143,sundancenow,Sundance Now,{flatrate},Sundance Now
+205,amazonsundancenow,Sundance Now Amazon Channel,{flatrate},Amazon
+2048,appletvsundancenow,Sundance Now Apple TV Channel,{flatrate},Apple TV
+309,sunnxt,Sun Nxt,{flatrate},Sun Nxt
+605,amazonsuperchannel,Super Channel Amazon Channel,{flatrate},Amazon
+2525,superchannelplus,Super Channel Plus,{flatrate},Super Channel Plus
+708,amazonsuperfresh,Superfresh Amazon Channel,{flatrate},Amazon
+1787,supertennis,SuperTennis,{flatrate},SuperTennis
+530,supomungam,Supo Mungam Plus,{flatrate},Supo Mungam Plus
+493,svtplay,SVT,{free},SVT
+2440,amazonsweatflix,Sweatflix Amazon Channel,{flatrate},Amazon
+215,syfy,Syfy,{flatrate},Syfy
+2276,amazonsyfyhorror,SYFY Horror Amazon Channel,{flatrate},Amazon
+2235,tabii,tabii,"{flatrate,ads,free}",tabii
+1771,takflix,Takflix,"{buy,free}",Takflix
+93,talktalktv,Talk Talk TV,{rent},Talk Talk TV
+2068,amazontastemade,Tastemade Amazon Channel ,{flatrate},Amazon
+2047,appletvtastemade,Tastemade Apple TV Channel,{flatrate},Apple TV
+502,tatasky,Tata Play,"{flatrate,rent}",Tata Play
+506,tbs,TBS,{flatrate},TBS
+361,tcm,TCM,{flatrate},TCM
+497,comhemplay,Tele2 Play,{flatrate},Tele2 Play
+1994,tele5,TELE 5,{free},TELE 5
+2156,amazontelecine,Telecine Amazon Channel,{flatrate},Amazon
+227,telecineplay,Telecine Play,{flatrate},Telecine Play
+2153,telefe,Telefe,{free},Telefe
+1930,telemundous,Telemundo,"{flatrate,ads}",Telemundo
+1857,telenet,Telenet,"{rent,flatrate}",Telenet
+2518,amazontelasa,TELESA Amazon Channel,{flatrate},Amazon
+589,amazonnickelodeon,TELETOON+ Amazon Channel,{flatrate},Amazon
+553,teliaplay,Telia Play,{flatrate},Telia Play
+429,telstratv,Telstra TV,"{buy,rent}",Telstra TV
+1774,tennischannel,Tennis Channel,{flatrate},Tennis Channel
+1863,tennistv,Tennis TV,{flatrate},Tennis TV
+1754,tf1,TF1+,"{free,ads,flatrate,rent}",TF1+
+2563,tentkotta,Tentkotta,{flatrate},Tentkotta
+2277,amazonterrax,Terra X Amazon Channel,{flatrate},Amazon
+2551,thalia,Thalia,{buy},Thalia
+2366,amazoncodacollection,The Coda Collection Amazon Channel,{flatrate},Amazon
+83,thecw,The CW,{free},The CW
+1813,thefaplayer,The FA Player,{free},The FA Player
+2172,amazonthegreatcourses,The Great Courses Amazon Channel,{flatrate},Amazon
+611,amazongreatcourses,The Great Courses Signature Collection Amazon Channel,{flatrate},Amazon
+169,tmngo,The Movie Network Go,{flatrate},The Movie Network Go
+166,thenumbers,The Numbers,{},The Numbers
+555,own,The Oprah Winfrey Network,"{flatrate,free}",The Oprah Winfrey Network
+165,thereelbits,The Reel Bits,{none},The Reel Bits
+207,rokuchannel,The Roku Channel,{ads},Roku
+2238,therugbynetwork,The Rugby Network,{flatrate},The Rugby Network
+2109,thespacecinema,The Space Cinema,{cinema},The Space Cinema
+2443,amazonthesurfnetwork,The Surf Network Amazon Channel,{flatrate},Amazon
+2458,amazonvdptheusa095c5yr1ny,The Titanic Channel Amazon Channel,{flatrate},Amazon
+440,threenow,ThreeNow,{free},ThreeNow
+2295,amazonthrillbox,Thrillbox Amazon Channel,{flatrate},Amazon
+109,timvision,Timvision,"{flatrate,rent,buy}",Timvision
+1833,tivibu,Tivibu,{flatrate},Tivibu
+1838,tivify,Tivify,"{flatrate,free}",Tivify
+412,tlc,TLC,"{flatrate,free}",TLC
+1783,tln,tln,{flatrate},tln
+1,tmdb,The Movie DB,{none},The Movie DB
+363,tnt,TNT,{flatrate},TNT
+512,tntgo,TNTGo,{flatrate},TNTGo
+1839,tntsportsgo,TNT Sports Go,{flatrate},TNT Sports Go
+698,btsport,TNT Sports on discovery+,"{flatrate,free}",TNT Sports on discovery+
+1750,tod,TOD,{flatrate},TOD
+1826,todtv,TOD TV,{flatrate},TOD TV
+2519,amazontoeianime,Toei Animation Channel  Amazon Channel,{flatrate},Amazon
+2520,amazontoeich,Toei On Demand Amazon Channel,{flatrate},Amazon
+2201,toggo,Toggo,{ads},Toggo
+2444,amazontoku,Toku Amazon Channel,{flatrate},Amazon
+2030,toongoggles,Toon Goggles,{ads},Toon Goggles
+454,topic,Topic,{flatrate},Topic
+413,travelchannel,Travel Channel,"{flatrate,free}",Travel Channel
+517,triart,TriArt Play,"{flatrate,rent}",TriArt Play
+265,tribecashortlist,Tribeca Shortlist,{flatrate},Tribeca Shortlist
+2084,tribute,Tribute,{},Tribute
+1991,trillertv,TrillerTV+,"{buy,flatrate}",TrillerTV+
+2078,tromanow,Troma NOW,"{flatrate,free}",Troma NOW
+1804,trt1,TRT1,{free},TRT1
+1807,trtspor,TRT SPOR,{free},TRT SPOR
+1931,trtsporyildiz,TRT SPOR YILDIZ,"{ads,free}",TRT SPOR YILDIZ
+2446,amazontrueroyalty,True Royalty Amazon Channel,{flatrate},Amazon
+567,truestory,True Story,"{flatrate,rent}",True Story
+507,trutv,tru TV,{flatrate},tru TV
+1775,tsn,TSN,{flatrate},TSN
+1777,tsn1,TSN1,{flatrate},TSN1
+1778,tsn2,TSN2,{flatrate},TSN2
+1779,tsn3,TSN3,{flatrate},TSN3
+1780,tsn4,TSN4,{flatrate},TSN4
+1781,tsn5,TSN5,{flatrate},TSN5
+1841,tsnplus,TSN Plus,{flatrate},TSN Plus
+73,tubitv,Tubi TV,{free},Tubi
+1959,tubitvfast,Tubi TV Live,{fast},Tubi
+1800,tubitvsports,Tubi TV Sports,{},Tubi TV Sports
+1816,tudn,TUDN,{flatrate},TUDN
+391,turkonvideo,Turk on Video,{flatrate},Turk on Video
+693,amazonturkonvideo,Turk On Video Amazon Channel,{flatrate},Amazon
+2278,amazontv1000,TV1000 Russian Kino Amazon Channel,{flatrate},Amazon
+383,tv2dk,TV 2,{flatrate},TV 2
+431,sumotv2,TV 2 Play,"{buy,free,flatrate,rent}",TV 2 Play
+1944,tv4play,TV4 Play,{flatrate},TV4 Play
+2236,tv5monde,TV5 MONDE,"{free,ads}",TV5 MONDE
+1845,tv8,TV8,{free},TV8
+1916,tv8turkiye,"TV8,5",{free},"TV8,5"
+2232,tv8tr,Tv8,"{ads,free}",Tv8
+1910,tvasports,TVA+,{flatrate},TVA+
+2573,amazontvasportsdirect,TVA SPORTS DIRECT Amazon Channel,{flatrate},Amazon
+689,amazontvcortos,TVCortos Amazon Channel,{flatrate},Amazon
+2195,tverjapan,TVer,"{ads,free}",TVer
+500,tvfplay,TVF Play,{ads},TVF Play
+1933,tvglobobrazil,TV Globo,"{ads,free}",TV Globo
+577,tvigle,TvIgle,"{rent,ads,free}",TvIgle
+1888,amazonanimedigitalfr,Animation Digital Network Amazon Channel,{flatrate},Amazon
+2173,amazonanimedigital,Anime Digital Network Amazon Channel,{flatrate},Amazon
+2032,appletvnoggin,Noggin Apple TV Channel,{flatrate},Apple TV
+2223,amazoncazetv,CazeTV Amazon Channel,{flatrate},Amazon
+2226,amazonfubosports,Fubo Sports Amazon Channel,{flatrate},Amazon
+2312,amazonrdsca,RDS Amazon Channel,{flatrate},Amazon
+2318,amazonamebatv,Amebatv Amazon Channel,{flatrate},Amazon
+2364,amazoncinefest,Cinefest Amazon Channel,{flatrate},Amazon
+2538,amazonkidsandfamilymax,Kids and Family Max amazon channel,{flatrate},Amazon
+2527,arovision,AroVision Aotearoa,{rent},AroVision Aotearoa
+2517,amazonstarch,BS10 STAR CHANNEL EX Amazon Channel,{flatrate},Amazon
+2523,crankeduptv,Cranked Up TV,"{flatrate,rent,buy}",Cranked Up TV
+2534,amazondjangowestern,Djangowestern Amazon Channel,{flatrate},Amazon
+2524,eventcinemas,Event Cinemas,{cinema},Event Cinemas
+2512,amazonosakach,FANY Channel Select Amazon Channel,{flatrate},Amazon
+2515,amazonshimajiro,Having fun with Shimajiro Amazon Channel,{flatrate},Amazon
+2537,ifihome,IFI@Home,"{flatrate,rent,buy}",IFI@Home
+2550,jpc,JPC,{buy},JPC
+2531,justwatchsr,JustWatch SR,"{cinema,buy,rent,flatrate_and_buy,flatrate}",JustWatch SR
+2526,amazonmadeineurope,Made in Europe Amazon Channel,{flatrate},Amazon
+2532,amazonmosaik,Mosaik Amazon Channel,{flatrate},Amazon
+1885,tviplayeriol,TVI Player,"{ads,free}",TVI Player
+419,tvland,TV Land,{flatrate},TV Land
+395,tvnz,TVNZ+,{free},TVNZ+
+488,tvo,tvo,{free},tvo
+1904,turkcelltvplus,TV+,{flatrate},TV+
+1846,tvpublica,TVPublica,{free},TVPublica
+556,tvzavr,tvzavr,"{flatrate,buy,ads}",tvzavr
+1785,twitch,Twitch,{flatrate},Twitch
+1924,twitter,Twitter,{free},Twitter
+1812,tycsports,TyC Sports,{free},TyC Sports
+1862,uamtv,UAM TV,{flatrate},UAM TV
+112,ucicinemas,UCIcinemas,{cinema},UCIcinemas
+2136,ucikinowelt,UCI Kino,{cinema},UCI Kino
+1886,uefatv,UEFA tv,"{free,ads}",UEFA tv
+2210,ugc,UGC,{cinema},UGC
+137,uktvplay,UKTV Play,{ads},UKTV Play
+84,unext,U-NEXT,{flatrate},U-NEXT
+184,universalpictures,Universal Pictures,{buy},Universal Pictures
+1889,amazonuniversalplus,Universal+ Amazon Channel,{flatrate},Amazon
+239,universcine,Universcine,"{rent,buy}",Universcine
+1732,amazonuniverscine,Universcine Amazon Channel,{flatrate},Amazon
+1860,univervideo,Univer Video,{flatrate},Univer Video
+2197,univisionnow,Univision NOW,{flatrate},Univision NOW
+622,upctv,UPC TV,{flatrate},UPC TV
+249,upfaithandfamily,UP Faith and Family,{flatrate},UP Faith and Family
+2066,amazonupfaithfamily,UP Faith & Family Amazon Channel ,{flatrate},Amazon
+2045,appletvupfaithfamily,UP Faith & Family Apple TV Channel,{flatrate},Apple TV
+1823,urctv,URC TV,"{buy,flatrate}",URC TV
+322,usanetwork,USA Network,"{free,flatrate}",USA Network
+2465,amazonvemoxcine,Vemox Cine Amazon Channel,{flatrate},Amazon
+2207,verleihshop,Verleihshop,"{rent,buy}",Verleihshop
+422,vh1,VH1,"{ads,flatrate}",VH1
+494,viafree,Viafree,{free},Viafree
+76,viaplay,Viaplay,"{flatrate,buy,rent}",Viaplay
+2296,amazonviaplay,Viaplay Amazon Channel,{flatrate},Amazon
+1940,amazonviaplaysport,Viaplay TV+ Amazon Channel,{flatrate},Amazon
+1795,viaplaysports,Viaplay Sports,{flatrate},Viaplay Sports
+458,vicetv,Vice TV ,{ads},Vice TV 
+539,viddla,Viddla,{free},Viddla
+133,videobuster,Videobuster,"{rent,buy}",Videobuster
+72,videoland,Videoland,{flatrate},Videoland
+1993,videoload,Videoload,"{rent,buy,flatrate}",Videoload
+489,vidio,Vidio,"{flatrate,free}",Vidio
+462,vidplus,Vid Plus,{flatrate},Vid Plus
+92,viewyahoo,Yahoo View,{free},Yahoo View
+2147,villagecinemas,Village Cinemas,{cinema},Village Cinemas
+2529,vimeo,Vimeo,{ads},Vimeo
+614,vimoviesandtv,VI movies and tv,{flatrate},VI movies and tv
+594,virgintvgo,Virgin TV Go,{flatrate},Virgin TV Go
+2309,visiondistribution,Vision Distribution,{cinema},Vision Distribution
+158,viu,Viu,"{flatrate,ads}",Viu
+2286,vivavideofutur,VIVA by videofutur,"{rent,buy}",VIVA by videofutur
+457,vixtv,VIX ,"{ads,flatrate}",VIX 
+2163,amazonvix,Vix Gratis Amazon Channel,{flatrate},Amazon
+1866,amazonvixplus,ViX Premium Amazon Channel,{flatrate},Amazon
+450,vodacom,Vodacom Video Play,"{flatrate,rent}",Vodacom Video Play
+329,vodafone,Vodafone TV online,{flatrate},Vodafone TV online
+370,vodclub,VOD Club,{rent},VOD Club
+245,vodpl,VOD Poland,"{rent,ads,free}",VOD Poland
+53,volta,Volta,"{buy,rent}",Volta
+1951,voosport,VOOsport,{flatrate},VOOsport
+121,voot,Voot,"{flatrate,ads}",Voot
+2310,voxcinemas,VOX Cinemas,{cinema},VOX Cinemas
+627,voyo,Voyo,{flatrate},Voyo
+2181,amazonvrott,Vrott Amazon Channel,{flatrate},Amazon
+312,vrtnu,VRT MAX,{free},VRT MAX
+504,vrvco,VRV,"{flatrate,ads}",VRV
+1909,vtmgo,VTM GO,"{flatrate,free,ads}",VTM GO
+306,vudufeed,VUDU Feed,{flatrate},VUDU Feed
+2132,vue,Vue,{cinema},Vue
+414,vvvvid,VVVVID,"{ads,rent}",VVVVID
+615,w4free,W4free,{free},W4free
+1858,w9,W9,{free},W9
+2279,amazonwaidwerk,Waidwerk Amazon Channel,{flatrate},Amazon
+354,wakanim,WAKANIM,"{flatrate,ads}",Crunchyroll
+2466,amazonwag,Warriors and Gangsters Amazon Channel,{flatrate},Amazon
+2280,amazonwatch4plus,Watch4+ Amazon Channel,{flatrate},Amazon
+97,watcha,Watcha,{flatrate},Watcha
+171,watchbox,Watchbox,{ads},Watchbox
+2459,amazonvdpwatuspt801mb64mm,Watchit.Kid Amazon Channel,{flatrate},Amazon
+356,wavve,wavve,"{flatrate,rent,buy,free}",wavve
+2113,webtic,Webtic,{cinema},Webtic
+392,watch4,wedotv,{free},wedotv
+2076,wedotv,Wedo TV,{free},Wedo TV
+2460,amazonvdpwelusy88tdt5nwq0,Wellness Plus by Psychetruth Amazon Channel,{flatrate},Amazon
+509,wetv,WeTV,{flatrate},WeTV
+2126,wikipedia,Wikipedia,{},Wikipedia
+2281,amazonwildwest,Wild West Amzon Channel,{flatrate},Amazon
+1918,willowtv,WILLOW,{flatrate},WILLOW
+501,wink,Wink,"{flatrate,rent,buy,free}",Wink
+30,skyticket,WOW,{flatrate},Sky/WOW
+1882,wowow,Wowow,{flatrate},Wowow
+546,wowpresentsplus,WOW Presents Plus,{flatrate},WOW Presents Plus
+1864,wtatv,WTA TV,{flatrate},WTA TV
+260,wwenetwork,WWE Network,{flatrate},WWE Network
+17,xbox,Xbox,"{rent,buy}",Xbox
+2467,amazonxivetv,Xive TV Documentaries Amazon Channel,{flatrate},Amazon
+2468,amazonxltv,XLTV Amazon Channel ,{flatrate},Amazon
+1963,xumoplay,Xumo Play,{ads},Xumo Play
+313,yeloplay,Yelo Play,{flatrate},Yelo Play
+2470,amazonyippeetv,Yipee Kids TV Amazon Channel,{flatrate},Amazon
+323,yleareena,Yle Areena,{free},Yle Areena
+2462,amazonvdpyoguse9vn6wa0s64,Yoga and Fitness TV Amazon channel,{flatrate},Amazon
+2471,amazonyogaanytime,Yoga Anytime Amazon Channel,{flatrate},Amazon
+2463,amazonvdpyogusg2yt8npv2qe,Yoga Download Amazon Channel,{flatrate},Amazon
+2461,amazonvdpyogus499nnea7qm5,Yoga International Amazon Channel,{flatrate},Amazon
+2522,amazonyomiuritv,Yomiuri TV Channel Amazon Channel,{flatrate},Amazon
+1764,yorckondemand,Yorck on Demand,"{rent,buy}",Yorck on Demand
+2464,amazonvdpyouusc2pfakgjb6y,Young Hollywood Amazon Channel,{flatrate},Amazon
+192,youtube,YouTube,"{flatrate,rent,buy}",YouTube
+208,youtubechannel,YouTube Channel,{free},YouTube
+235,youtubefree,YouTube Free,{ads},YouTube
+2305,youtubemoviesandtv,Youtube Movies And TV,"{rent,buy}",YouTube
+188,youtubered,YouTube Premium,{flatrate},YouTube
+1789,youtubesports,YouTube Sports,"{free,ads}",YouTube
+2528,youtubetv,YouTube TV,{flatrate},YouTube
+255,yupptv,Yupp TV,"{flatrate,ads}",Yupp TV
+537,zdf,ZDF,{free},ZDF
+286,amazonzdfherzkino,ZDF Herzkino Amazon Channel,{flatrate},Amazon
+2297,amazonkrimi,ZDF Krimi Amazon Channel,{flatrate},Amazon
+1989,amazonzdfselect,ZDF Select Amazon Channel ,{flatrate},Amazon
+700,zdfsport,ZDF Sport,{flatrate},ZDF Sport
+2298,amazonzdftivi,ZDFtivi Amazon channel,{flatrate},Amazon
+232,zee5,Zee5,"{flatrate,ads,free}",Zee5
+2439,amazonstingrayzenlife,ZenLIFE by Stingray Amazon Channel,{flatrate},Amazon
+297,ziggo,Ziggo TV,{flatrate},Ziggo TV
+2562,zavvi,Zavvi,{buy},Zavvi

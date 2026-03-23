@@ -16,7 +16,7 @@ session_agg as (
         max(event_timestamp) as session_end,
 
         -- volume
-        count(*) as total_events,
+        count(*) as session_depth,
         sum(case when is_clickout then 1 else 0 end) as clickout_count,
         sum(case when is_search_session then 1 else 0 end) as search_event_count,
         sum(case when is_watchlist_add then 1 else 0 end) as watchlist_add_count,
@@ -30,6 +30,7 @@ session_agg as (
 
         -- provider attribution: first clickout only (clean 1:1 session→provider)
         max(case when is_first_clickout then provider_id end) as first_clickout_provider_id,
+        max(case when is_first_clickout then title_id end) as first_clickout_title_id,
         max(case when is_first_clickout then monetization_type end) as first_clickout_monetization_type,
 
         -- search

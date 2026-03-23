@@ -25,6 +25,22 @@ title_genres as (
     qualify row_number() over (partition by object_id order by g.index) = 1
 ),
 
+provider_mapping as (
+    select * from {{ ref('provider_mapping') }}
+),
+
+-- provider group with most clickouts per user
+user_top_provider as (
+    select
+        e.user_id,
+        coalesce(pm.provider_group, e.provider_id::text) as primary_provider_group
+    from events e
+    left join provider_mapping pm on e.provider_id = pm.provider_id
+    where e.is_clickout and e.provider_id is not null
+    group by e.user_id, primary_provider_group
+    qualify row_number() over (partition by e.user_id order by count(*) desc) = 1
+),
+
 user_stats as (
     select
         e.user_id,
@@ -53,8 +69,8 @@ user_stats as (
         -- depth
         round(count(*)::float / nullif(count(distinct e.session_id), 0), 2) as avg_events_per_session,
 
-        -- primary provider (mode)
-        mode(e.provider_id) as primary_provider_id,
+        -- primary provider group (most clickouts)
+        utp.primary_provider_group,
 
         -- primary genre (mode)
         mode(tg.genre) as primary_genre,
@@ -68,7 +84,8 @@ user_stats as (
     from events e
     left join objects o on e.title_id = o.object_id
     left join title_genres tg on e.title_id = tg.object_id
-    group by e.user_id
+    left join user_top_provider utp on e.user_id = utp.user_id
+    group by e.user_id, utp.primary_provider_group
 )
 
 select

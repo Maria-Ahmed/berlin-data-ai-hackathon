@@ -3,10 +3,6 @@ version: 2
 models:
   - name: dim_users
     description: "User dimension: behavioral features + segment. 1 row per user."
-    meta:
-      joins:
-        - join: dim_providers
-          sql_on: ${dim_users.primary_provider_id} = ${dim_providers.provider_id}
     columns:
       - name: user_id
         description: Anonymous device/browser ID
@@ -22,11 +18,11 @@ models:
         meta:
           dimension:
             type: number
-      - name: primary_provider_id
+      - name: primary_provider_group
+        description: "User's most-converted provider group (by clickout count)"
         meta:
           dimension:
-            type: number
-            hidden: true
+            type: string
       - name: primary_genre
         meta:
           dimension:
@@ -212,8 +208,6 @@ models:
       joins:
         - join: dim_users
           sql_on: ${fct_sessions.user_id} = ${dim_users.user_id}
-        - join: dim_providers
-          sql_on: ${fct_sessions.primary_provider_id} = ${dim_providers.provider_id}
     columns:
       - name: session_id
         tests:
@@ -222,11 +216,6 @@ models:
         meta:
           dimension:
             type: string
-            hidden: true
-      - name: primary_provider_id
-        meta:
-          dimension:
-            type: number
             hidden: true
       - name: has_clickout
         meta:
@@ -264,3 +253,70 @@ models:
           metrics:
             avg_titles_per_session:
               type: average
+
+  - name: mart_sessions
+    description: "Denormalized session table with user segment, content, and provider details. 1 row per session."
+    columns:
+      - name: session_id
+        description: Session identifier
+        meta:
+          dimension:
+            type: string
+          metrics:
+            total_sessions:
+              type: count_distinct
+            unique_converted_sessions:
+              type: count_distinct
+              filters:
+                - field: has_clickout
+                  operator: "is"
+                  value: true
+      - name: session_start
+        meta:
+          dimension:
+            type: timestamp
+      - name: has_clickout
+        meta:
+          dimension:
+            type: boolean
+      - name: is_conversion
+        description: "1 if session had a clickout, 0 otherwise"
+        meta:
+          dimension:
+            type: number
+            hidden: true
+          metrics:
+            conversion_rate:
+              type: average
+              format: percent
+              round: 2
+      - name: user_id
+        meta:
+          dimension:
+            type: string
+            hidden: true
+      - name: segment_name
+        description: "User behavioral segment"
+        meta:
+          dimension:
+            type: string
+      - name: title
+        description: "Content title from first clickout"
+        meta:
+          dimension:
+            type: string
+      - name: short_description
+        description: "Content description from first clickout"
+        meta:
+          dimension:
+            type: string
+      - name: provider_group
+        description: "Consolidated provider group from first clickout"
+        meta:
+          dimension:
+            type: string
+      - name: user_primary_provider
+        description: "User's most-converted provider (by clickout count)"
+        meta:
+          dimension:
+            type: string
