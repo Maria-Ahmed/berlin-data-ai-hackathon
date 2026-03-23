@@ -1,0 +1,13 @@
+dbt_template:
+  outputs:
+    dev:
+      account: "OHHGHHL-ZM06890"
+      database: DB_TEAM_8
+      password: nRr5#iwzT5Au1T
+      role: ROLE_TEAM_8
+      schema:  "CHALLENGE"
+      threads: 1
+      type: snowflake
+      user: UMAIRTUFAIL2001@GMAIL.COM
+      warehouse: WH_TEAM_8_M
+  target: dev

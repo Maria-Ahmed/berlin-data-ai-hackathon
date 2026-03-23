@@ -1,0 +1,10 @@
+{
+    "snowflake.account": "OHHGHHL-ZM06890",
+    "snowflake.user": "UMAIRTUFAIL2001@GMAIL.COM",
+    "snowflake.password": "nRr5#iwzT5Au1T",
+    "snowflake.database": "DB_TEAM_8",
+    "snowflake.schema": "CHALLENGE",
+    "snowflake.warehouse": "WH_TEAM_8_M",
+    "snowflake.role": "ROLE_TEAM_8",
+    "kiroAgent.configureMCP": "Disabled"
+}
