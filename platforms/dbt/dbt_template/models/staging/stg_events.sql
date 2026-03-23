@@ -91,3 +91,4 @@ select
 
 from deduplicated
 where _rn = 1
+  and user_id is not null

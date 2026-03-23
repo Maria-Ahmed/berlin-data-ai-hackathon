@@ -32,7 +32,7 @@ WITH user_clusters AS (
 SELECT
     cluster_id,
     COUNT(*) AS user_count,
-    ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 1) AS user_pct,
+    ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 2) AS user_pct,
 
     -- Engagement depth
     ROUND(AVG(clickout_rate), 4)         AS avg_clickout_rate,
