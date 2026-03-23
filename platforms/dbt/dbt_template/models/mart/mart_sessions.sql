@@ -6,10 +6,11 @@ SELECT
 
   -- user attributes
   fs.user_id,
-  du.segment_name,
+  du.segment_heuristic_name as segment_name,
 
   -- content attributes
   dc.title,
+  dc.primary_genre,
   dc.short_description,
 
   -- provider attributes (session-level: from first clickout)

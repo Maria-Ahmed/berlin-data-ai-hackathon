@@ -305,6 +305,11 @@ models:
         meta:
           dimension:
             type: string
+      - name: primary_genre
+        description: "Primary genre of content from first clickout"
+        meta:
+          dimension:
+            type: string
       - name: short_description
         description: "Content description from first clickout"
         meta:
