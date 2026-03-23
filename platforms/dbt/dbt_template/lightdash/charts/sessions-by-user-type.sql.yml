@@ -1,0 +1,45 @@
+chartKind: vertical_bar
+config:
+  display:
+    series:
+      SEGMENT_NAME_any:
+        type: bar
+    stack: stack
+  fieldConfig:
+    groupBy:
+      - reference: HAS_CLICKOUT
+    stack: stack
+    x:
+      reference: SEGMENT_NAME
+      type: category
+    "y":
+      - aggregation: count
+        reference: SESSION_ID
+  metadata:
+    version: 1
+  type: vertical_bar
+contentType: sql_chart
+description: ""
+limit: 500
+name: Sessions by User Type
+slug: sessions-by-user-type
+spaceSlug: shared
+sql: |-
+  SELECT
+    fs.session_id,
+    fs.user_id,
+    fs.session_start,
+    du.segment_name,
+    dc.title,
+    dp.clear_name,
+    dc.short_description,
+    fs.has_clickout
+  FROM 
+    "DB_TEAM_8"."DEV_SROSENBERGER_MART"."FCT_SESSIONS" fs
+  LEFT JOIN
+    "DB_TEAM_8"."DEV_SROSENBERGER_MART"."DIM_USERS" du ON du.user_id = fs.USER_ID
+  LEFT JOIN
+    "DB_TEAM_8"."DEV_SROSENBERGER_MART"."DIM_PROVIDERS" dp ON dp.provider_id = fs.first_clickout_provider_id
+  LEFT JOIN
+    "DB_TEAM_8"."DEV_SROSENBERGER_MART"."DIM_CONTENT" dc ON dc.title_id = fs.first_clickout_title_id
+version: 1

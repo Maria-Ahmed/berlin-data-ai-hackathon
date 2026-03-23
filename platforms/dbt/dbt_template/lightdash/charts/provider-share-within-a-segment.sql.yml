@@ -1,0 +1,38 @@
+chartKind: vertical_bar
+config:
+  display: {}
+  fieldConfig:
+    groupBy: []
+    sortBy:
+      - direction: ASC
+        reference: PROVIDER_GROUP
+    x:
+      reference: PROVIDER_GROUP
+      type: category
+    "y":
+      - aggregation: sum
+        reference: PCT
+  metadata:
+    version: 1
+  type: vertical_bar
+contentType: sql_chart
+description: ""
+limit: 500
+name: Provider share within a segment
+slug: provider-share-within-a-segment
+spaceSlug: test
+sql: >
+  SELECT pm.provider_group,
+         COUNT(*) AS clickouts,
+         ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 1) AS pct
+  FROM DB_TEAM_8.BASE_MART.FCT_EVENTS f
+
+  JOIN DB_TEAM_8.BASE_MART.DIM_USERS u ON f.user_id = u.user_id
+
+  JOIN DB_TEAM_8.REFERENCE.PROVIDER_MAPPING pm ON pm.provider_id = f.provider_id
+
+  WHERE f.is_clickout = TRUE AND u.segment_name = 'Omnivore'  -- change this
+  filter
+
+  GROUP BY 1 ORDER BY 2 DESC LIMIT 15
+version: 1

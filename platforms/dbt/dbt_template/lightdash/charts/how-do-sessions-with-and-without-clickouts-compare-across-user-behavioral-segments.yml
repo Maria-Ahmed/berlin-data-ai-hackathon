@@ -1,0 +1,2457 @@
+chartConfig:
+  config:
+    eChartsConfig:
+      series:
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Apple TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: JustWatch TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Netflix
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Crunchyroll
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Joyn
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Disney+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: MagentaTV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: ARD
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: maxdome
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Pluto TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Hulu
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: filmfriend
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Kanopy
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Hoopla
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: RTL+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Roku
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Rakuten
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: HBO Max
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Cineplex DE
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: BINGE
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Arte
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Filmzie
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Videobuster
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Okko
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: BBC iPlayer
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: OSN+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: JPC
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Fawesome
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Paramount+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Spectrum On Demand
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Fandango
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TELE 5
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Premier
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: puhutv
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Rai Play
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Tubi
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Zee5
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Shahid VIP
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: 3sat
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Kinopoisk
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Plaion Pictures
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Cultpix
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: AD tv
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Netzkino
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Canal+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: MUBI
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: AVA VOBB
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: FlixHouse
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Adult Swim
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: More TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: The CW
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Videoload
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Peacock Premium
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: OnDemandKorea
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Channel 4
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Player
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Mediaset Infinity
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Starz
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Zavvi
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Philo
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Hugendubel
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Arthaus+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Discovery+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: FXNow
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Google Play
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: ABC iview
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: AMC Theatres
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: LaCinetek
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Play Suisse
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TOD
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: "VIX "
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Filmstriben
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: VI movies and tv
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Viu
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: MovistarTV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: filmingo
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: FOUND TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: DRTV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: blue TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Sun Nxt
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Eventive
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Filmtastic
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Now TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Yle Areena
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: CTV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Medimops
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Canal VOD
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Global TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: 7plus
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Popcorntimes
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TVP
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: ITVX
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: M6+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: FilmBox+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Vidio
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Hayu
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Videoland
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: AVA HBZ
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: wavve
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Tivify
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: 9Now
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Criterion Channel
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Filmin
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Universcine
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Watcha
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Polsat Box Go
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: WOW Presents Plus
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: "5"
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Kixi
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Mhz Choice
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: UKTV Play
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Globoplay
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Xumo Play
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: NetMovies
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Verleihshop
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: ArthouseCNMA
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: CDA Premium
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: MGM+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Stan
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TvIgle
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: "10"
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Curiosity Stream
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: NBC
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Lepsi TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Atres Player
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Catchplay
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Crave
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Showtime
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TVNZ+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: CBC Gem
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Cineasterna
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: HiDive
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Prima Plus
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Beamafilm
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Darkroom
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: SF Anytime
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Akibapass
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Cinu
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Angel Studios
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: GuideDoc
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Retrocrush
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TVING
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: VOD Club
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: ORF ON
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: FlixOlé
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: RTBF Auvio
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Sony Liv
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Tentkotta
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: CHILI
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: KQED
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Kocowa
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Plex
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: SBS On Demand
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: MX Player
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Lifetime
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: SVT
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Amazon
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Sky/WOW
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: ZDF
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Cinestar
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: YouTube
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Freenet meinVOD
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TV+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Thalia
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Toggo
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: UCI Kino
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: TOD TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Filmspiegel
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: KiKA
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Animation Digital Network
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: fuboTV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: "Movistar Plus+ Ficción Total "
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: CANAL+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Artiflix
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Buecher
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Home of Horror
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Movistar Plus+
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Runtime
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: NRK TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Mometu
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: buy ZOXS
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: rtve
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: South Park
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Wedo TV
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Vimeo
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: myfilmfriend
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Free Movies Plus
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: tabii
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Atom Tickets
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Dekkoo
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Looke
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Stupid Co
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: U-NEXT
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: VRT MAX
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: National Geographic
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: BYUtv
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: Peacock Premium Plus
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: KPN
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: ThreeNow
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_segment_name
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_user_primary_provider
+                  value: W4free
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+      showAxisTicks: false
+      tooltipSort: value_descending
+    layout:
+      flipAxes: true
+      stack: stack100
+      xField: mart_sessions_segment_name
+      yField:
+        - mart_sessions_total_sessions
+  type: cartesian
+contentType: chart
+dashboardSlug: ghost-content
+description: Amazon is clearly leading the pack - how can others compete?
+metricQuery:
+  additionalMetrics: []
+  customDimensions: []
+  dimensionOverrides: {}
+  dimensions:
+    - mart_sessions_segment_name
+    - mart_sessions_user_primary_provider
+  exploreName: mart_sessions
+  filters:
+    dimensions:
+      and:
+        - id: f773d05b-5022-47c5-92e1-29d717defd47
+          operator: equals
+          required: false
+          target:
+            fieldId: mart_sessions_has_clickout
+          values:
+            - true
+      id: 6ae38ff5-1813-4c00-90ad-d84245dd3daa
+  limit: 500
+  metricOverrides: {}
+  metrics:
+    - mart_sessions_total_sessions
+  sorts:
+    - descending: true
+      fieldId: mart_sessions_total_sessions
+  tableCalculations: []
+name: "# Dominant provider by % of outclicks"
+pivotConfig:
+  columns:
+    - mart_sessions_user_primary_provider
+slug: >-
+  how-do-sessions-with-and-without-clickouts-compare-across-user-behavioral-segments
+spaceSlug: shared
+tableConfig:
+  columnOrder:
+    - mart_sessions_segment_name
+    - mart_sessions_user_primary_provider
+    - mart_sessions_total_sessions
+tableName: mart_sessions
+version: 1

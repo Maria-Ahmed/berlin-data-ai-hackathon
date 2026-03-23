@@ -1,0 +1,307 @@
+chartConfig:
+  config:
+    eChartsConfig:
+      series:
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: action
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: animation
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: comedy
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: crime
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: documentation
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: drama
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: european
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: family
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: fantasy
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: history
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: horror
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: music
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: reality
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: romance
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: scifi
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: sport
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: thriller
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: war
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: western
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+        - encode:
+            xRef:
+              field: mart_sessions_provider_group
+            yRef:
+              field: mart_sessions_total_sessions
+              pivotValues:
+                - field: mart_sessions_primary_genre
+                  value: null
+          isFilteredOut: false
+          stack: mart_sessions_total_sessions
+          type: bar
+          yAxisIndex: 0
+      showAxisTicks: false
+    layout:
+      flipAxes: true
+      stack: stack100
+      xField: mart_sessions_provider_group
+      yField:
+        - mart_sessions_total_sessions
+  type: cartesian
+contentType: chart
+dashboardSlug: ghost-content
+description: ""
+metricQuery:
+  additionalMetrics: []
+  customDimensions: []
+  dimensionOverrides: {}
+  dimensions:
+    - mart_sessions_primary_genre
+    - mart_sessions_provider_group
+  exploreName: mart_sessions
+  filters:
+    dimensions:
+      and:
+        - id: 24ee6273-ca9a-4c21-948b-234bc1f4f74a
+          operator: notEquals
+          required: false
+          target:
+            fieldId: mart_sessions_user_primary_provider
+          values:
+            - Amazon
+        - id: 0713d4dc-ccbb-4233-8017-bbe985a8ca65
+          operator: include
+          required: false
+          target:
+            fieldId: mart_sessions_provider_group
+          values:
+            - Apple TV
+            - HBO Max
+            - Netflix
+            - Disney+
+            - Joyn
+            - Sky/WOW
+      id: c0d1ca96-23f5-4d82-86b0-7cee5234827e
+  limit: 500
+  metricOverrides: {}
+  metrics:
+    - mart_sessions_total_sessions
+  sorts:
+    - descending: false
+      fieldId: mart_sessions_primary_genre
+  tableCalculations: []
+name: Which genre mix wins for which segment?
+pivotConfig:
+  columns:
+    - mart_sessions_primary_genre
+slug: which-genre-mix-wins-for-which-segment
+spaceSlug: shared
+tableConfig:
+  columnOrder:
+    - mart_sessions_primary_genre
+    - mart_sessions_provider_group
+    - mart_sessions_total_sessions
+tableName: mart_sessions
+version: 1

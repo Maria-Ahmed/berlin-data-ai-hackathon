@@ -1,0 +1,91 @@
+chartKind: vertical_bar
+config:
+  display:
+    stack: none
+  fieldConfig:
+    sortBy:
+      - direction: DESC
+        reference: SEGMENT_NAME
+    stack: none
+    x:
+      reference: SEGMENT_NAME
+      type: category
+    "y":
+      - aggregation: avg
+        reference: PSOS
+  metadata:
+    version: 1
+  type: vertical_bar
+contentType: sql_chart
+description: ""
+limit: 500
+name: Segment Opportunity Score by Provider
+slug: segment-opportunity-score-by-provider
+spaceSlug: shared
+sql: |
+  SELECT
+      s.segment_name,
+      s.platform_name,
+      sb.segment_users,
+      ROUND(s.provider_share, 4) AS provider_share,
+      ROUND(sl.leader_share, 4) AS leader_share,
+      ROUND(GREATEST(sl.leader_share - s.provider_share, 0), 4) AS share_gap,
+      ROUND(sb.avg_clickouts_per_user, 2) AS avg_clickouts_per_user,
+      ROUND(sb.segment_users * GREATEST(sl.leader_share - s.provider_share, 0) * sb.avg_clickouts_per_user, 0) AS psos
+  FROM (
+      SELECT pss.segment_name, pss.platform_name, pss.provider_clickout_sessions,
+             st.segment_clickout_sessions,
+             pss.provider_clickout_sessions::FLOAT / NULLIF(st.segment_clickout_sessions, 0) AS provider_share
+      FROM (
+          SELECT du.segment_heuristic_name AS segment_name, dp.platform_name,
+                 COUNT(DISTINCT fs.session_id) AS provider_clickout_sessions
+          FROM DB_TEAM_8.CHALLENGE_MART.FCT_SESSIONS fs
+          JOIN DB_TEAM_8.CHALLENGE_MART.DIM_USERS du ON fs.user_id = du.user_id
+          JOIN DB_TEAM_8.CHALLENGE_MART.DIM_PROVIDERS dp ON fs.first_clickout_provider_id = dp.provider_id
+          WHERE fs.has_clickout = TRUE AND fs.first_clickout_provider_id IS NOT NULL
+          GROUP BY 1, 2
+      ) pss
+      JOIN (
+          SELECT du.segment_heuristic_name AS segment_name,
+                 COUNT(DISTINCT fs.session_id) AS segment_clickout_sessions
+          FROM DB_TEAM_8.CHALLENGE_MART.FCT_SESSIONS fs
+          JOIN DB_TEAM_8.CHALLENGE_MART.DIM_USERS du ON fs.user_id = du.user_id
+          WHERE fs.has_clickout = TRUE
+          GROUP BY 1
+      ) st ON pss.segment_name = st.segment_name
+  ) s
+  JOIN (
+      SELECT segment_name, MAX(provider_share) AS leader_share
+      FROM (
+          SELECT pss.segment_name, pss.platform_name,
+                 pss.provider_clickout_sessions::FLOAT / NULLIF(st.segment_clickout_sessions, 0) AS provider_share
+          FROM (
+              SELECT du.segment_heuristic_name AS segment_name, dp.platform_name,
+                     COUNT(DISTINCT fs.session_id) AS provider_clickout_sessions
+              FROM DB_TEAM_8.CHALLENGE_MART.FCT_SESSIONS fs
+              JOIN DB_TEAM_8.CHALLENGE_MART.DIM_USERS du ON fs.user_id = du.user_id
+              JOIN DB_TEAM_8.CHALLENGE_MART.DIM_PROVIDERS dp ON fs.first_clickout_provider_id = dp.provider_id
+              WHERE fs.has_clickout = TRUE AND fs.first_clickout_provider_id IS NOT NULL
+              GROUP BY 1, 2
+          ) pss
+          JOIN (
+              SELECT du.segment_heuristic_name AS segment_name,
+                     COUNT(DISTINCT fs.session_id) AS segment_clickout_sessions
+              FROM DB_TEAM_8.CHALLENGE_MART.FCT_SESSIONS fs
+              JOIN DB_TEAM_8.CHALLENGE_MART.DIM_USERS du ON fs.user_id = du.user_id
+              WHERE fs.has_clickout = TRUE
+              GROUP BY 1
+          ) st ON pss.segment_name = st.segment_name
+      )
+      GROUP BY 1
+  ) sl ON s.segment_name = sl.segment_name
+  JOIN (
+      SELECT du.segment_heuristic_name AS segment_name,
+             COUNT(DISTINCT du.user_id) AS segment_users,
+             AVG(du.total_clickouts) AS avg_clickouts_per_user
+      FROM DB_TEAM_8.CHALLENGE_MART.DIM_USERS du
+      GROUP BY 1
+  ) sb ON s.segment_name = sb.segment_name
+  ORDER BY psos DESC
+  LIMIT 20
+version: 1

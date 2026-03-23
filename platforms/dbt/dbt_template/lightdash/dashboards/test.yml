@@ -1,0 +1,12 @@
+contentType: dashboard
+description: ""
+filters:
+  dimensions: []
+  metrics: []
+  tableCalculations: []
+name: Test
+slug: test
+spaceSlug: test
+tabs: []
+tiles: []
+version: 1

@@ -1,0 +1,34 @@
+chartKind: vertical_bar
+config:
+  display: {}
+  fieldConfig:
+    groupBy: []
+    sortBy:
+      - direction: ASC
+        reference: SEGMENT_NAME
+    x:
+      reference: SEGMENT_NAME
+      type: category
+    "y":
+      - aggregation: sum
+        reference: AVG_IMDB
+  metadata:
+    version: 1
+  type: vertical_bar
+contentType: sql_chart
+description: ""
+limit: 500
+name: "Segment overview "
+slug: segment-overview
+spaceSlug: test
+sql: |
+  SELECT segment_name,
+         COUNT(*) AS total_users,
+         ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 1) AS pct_of_all,
+         ROUND(AVG(clickout_rate), 3) AS avg_clickout_rate,
+         ROUND(AVG(avg_imdb_score), 1) AS avg_imdb,
+         ROUND(AVG(genre_entropy), 2) AS avg_genre_entropy,
+         ROUND(AVG(avg_events_per_session), 1) AS avg_session_depth
+  FROM DB_TEAM_8.BASE_MART.DIM_USERS
+  GROUP BY 1 ORDER BY 2 DESC
+version: 1

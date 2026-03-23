@@ -1,0 +1,55 @@
+chartKind: table
+config:
+  columns:
+    CLICKOUTS:
+      frozen: false
+      label: CLICKOUTS
+      reference: CLICKOUTS
+      visible: true
+    IMDB_SCORE:
+      frozen: false
+      label: IMDB_SCORE
+      reference: IMDB_SCORE
+      visible: true
+    OBJECT_TYPE:
+      frozen: false
+      label: OBJECT_TYPE
+      reference: OBJECT_TYPE
+      visible: true
+    PRIMARY_GENRE:
+      frozen: false
+      label: PRIMARY_GENRE
+      reference: PRIMARY_GENRE
+      visible: true
+    TITLE:
+      frozen: false
+      label: TITLE
+      reference: TITLE
+      visible: true
+  display: {}
+  metadata:
+    version: 1
+  type: table
+contentType: sql_chart
+description: ""
+limit: 500
+name: Top content for segment + provider
+slug: top-content-for-segment-provider
+spaceSlug: test
+sql: >-
+  SELECT c.object_type, c.title, c.primary_genre, c.imdb_score, COUNT(*) AS
+  clickouts
+
+  FROM DB_TEAM_8.BASE_MART.FCT_EVENTS f
+
+  JOIN DB_TEAM_8.BASE_MART.DIM_USERS u ON f.user_id = u.user_id
+
+  JOIN DB_TEAM_8.REFERENCE.PROVIDER_MAPPING pm ON pm.provider_id = f.provider_id
+
+  JOIN DB_TEAM_8.BASE_MART.DIM_CONTENT c ON f.title_id = c.title_id
+
+  WHERE f.is_clickout = TRUE
+    AND u.segment_name = 'Omnivore'       -- change this
+    AND pm.provider_group = 'Netflix'      -- change this
+  GROUP BY 1,2,3,4 ORDER BY 5 DESC LIMIT 20
+version: 1

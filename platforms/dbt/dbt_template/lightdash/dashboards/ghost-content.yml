@@ -1,0 +1,77 @@
+config:
+  dateZoomGranularities:
+    - Day
+    - Week
+    - Month
+    - Quarter
+    - Year
+  isAddFilterDisabled: false
+  isDateZoomDisabled: false
+  pinnedParameters: []
+contentType: dashboard
+description: ""
+filters:
+  dimensions:
+    - disabled: true
+      operator: equals
+      target:
+        fieldId: mart_sessions_segment_name
+        fieldName: segment_name
+        tableName: mart_sessions
+      tileTargets:
+        how-do-sessions-with-and-without-clickouts-compare-across-user-behavioral-segments:
+          fieldId: mart_sessions_segment_name
+          tableName: mart_sessions
+        which-genre-mix-wins-for-which-segment:
+          fieldId: mart_sessions_segment_name
+          tableName: mart_sessions
+        which-providers-are-raking-most-conversions:
+          fieldId: mart_sessions_segment_name
+          tableName: mart_sessions
+      values: []
+  metrics: []
+  tableCalculations: []
+name: Ghost Content
+slug: ghost-content
+spaceSlug: shared
+tabs: []
+tiles:
+  - h: 9
+    properties:
+      chartName: "# Dominant provider by % of outclicks"
+      chartSlug: >-
+        how-do-sessions-with-and-without-clickouts-compare-across-user-behavioral-segments
+      hideTitle: false
+      title: ""
+    tabUuid: null
+    tileSlug: >-
+      how-do-sessions-with-and-without-clickouts-compare-across-user-behavioral-segments
+    type: saved_chart
+    w: 15
+    x: 0
+    "y": 0
+  - h: 9
+    properties:
+      chartName: Provider Share of Screentime (among amazon-first users)
+      chartSlug: which-providers-are-raking-most-conversions
+      hideTitle: false
+      title: ""
+    tabUuid: null
+    tileSlug: which-providers-are-raking-most-conversions
+    type: saved_chart
+    w: 15
+    x: 15
+    "y": 0
+  - h: 9
+    properties:
+      chartName: Which genre mix wins for which segment?
+      chartSlug: which-genre-mix-wins-for-which-segment
+      hideTitle: false
+      title: ""
+    tabUuid: null
+    tileSlug: which-genre-mix-wins-for-which-segment
+    type: saved_chart
+    w: 15
+    x: 0
+    "y": 1
+version: 1

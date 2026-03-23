@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "charts": {
+    "how-do-sessions-with-and-without-clickouts-compare-across-user-behavioral-segments": "2026-03-23T17:05:06.003Z",
+    "which-providers-are-raking-most-conversions": "2026-03-23T17:05:06.003Z",
+    "which-genre-mix-wins-for-which-segment": "2026-03-23T17:05:06.003Z",
+    "segment-opportunity-score-by-provider": "2026-03-23T17:05:06.237Z",
+    "sessions-by-user-type": "2026-03-23T17:05:06.237Z",
+    "segment-overview": "2026-03-23T17:05:06.237Z",
+    "movie-vs-show-split-per-segment": "2026-03-23T17:05:06.237Z",
+    "top-content-for-segment-provider": "2026-03-23T17:05:06.237Z",
+    "provider-share-within-a-segment": "2026-03-23T17:05:06.237Z",
+    "segment-breakdown-for-a-provider": "2026-03-23T17:05:06.237Z",
+    "provider-leaderboard": "2026-03-23T17:05:06.237Z"
+  },
+  "dashboards": {
+    "ghost-content": "2026-03-23T17:05:06.427Z",
+    "test": "2026-03-23T17:05:06.427Z"
+  }
+}

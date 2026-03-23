@@ -1,0 +1,36 @@
+chartKind: pie
+config:
+  display:
+    isDonut: false
+  fieldConfig:
+    groupBy: []
+    x:
+      reference: SEGMENT_NAME
+      type: category
+    "y":
+      - aggregation: avg
+        reference: PCT
+  metadata:
+    version: 1
+  type: pie
+contentType: sql_chart
+description: ""
+limit: 500
+name: Segment breakdown for a provider
+slug: segment-breakdown-for-a-provider
+spaceSlug: test
+sql: >-
+  SELECT u.segment_name,
+         COUNT(DISTINCT f.user_id) AS users,
+         ROUND(COUNT(DISTINCT f.user_id) * 100.0 / SUM(COUNT(DISTINCT f.user_id)) OVER (), 1) AS pct
+  FROM DB_TEAM_8.BASE_MART.FCT_EVENTS f
+
+  JOIN DB_TEAM_8.BASE_MART.DIM_USERS u ON f.user_id = u.user_id
+
+  JOIN DB_TEAM_8.REFERENCE.PROVIDER_MAPPING pm ON pm.provider_id = f.provider_id
+
+  WHERE f.is_clickout = TRUE AND pm.provider_group = 'Netflix'  -- change this
+  filter
+
+  GROUP BY 1 ORDER BY 2 DESC
+version: 1
