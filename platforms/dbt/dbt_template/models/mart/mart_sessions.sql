@@ -7,6 +7,8 @@ SELECT
   -- user attributes
   fs.user_id,
   du.segment_heuristic_name as segment_name,
+  du.segment_embedding_name as segment_embedding_name,
+  du.segment_kmeans_name as segment_kmeans_name,
 
   -- content attributes
   dc.title,
