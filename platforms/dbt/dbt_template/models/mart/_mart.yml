@@ -22,6 +22,11 @@ models:
         meta:
           dimension:
             type: number
+      - name: primary_provider_id
+        meta:
+          dimension:
+            type: number
+            hidden: true
       - name: primary_genre
         meta:
           dimension:
@@ -142,6 +147,16 @@ models:
           dimension:
             type: string
             hidden: true
+      - name: title_id
+        meta:
+          dimension:
+            type: string
+            hidden: true
+      - name: provider_id
+        meta:
+          dimension:
+            type: number
+            hidden: true
       - name: se_category
         meta:
           dimension:
@@ -208,6 +223,11 @@ models:
           dimension:
             type: string
             hidden: true
+      - name: primary_provider_id
+        meta:
+          dimension:
+            type: number
+            hidden: true
       - name: has_clickout
         meta:
           dimension:
@@ -223,7 +243,7 @@ models:
       - name: total_events
         meta:
           metrics:
-            total_events:
+            sum_total_events:
               type: sum
             avg_events_per_session:
               type: average

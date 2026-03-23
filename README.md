@@ -23,6 +23,10 @@ source .venv/bin/activate
 cd platforms/dbt/dbt_template
 dbt debug
 ```
+6. Deploy to lightdash
+```
+lightdash deploy --select staging mart prep
+```
 
 # Project Description for Ghost Content Discovery (Streaming Audience Intelligence)
 

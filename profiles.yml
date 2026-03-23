@@ -10,4 +10,14 @@ dbt_template:
       type: snowflake
       user: "{{ env_var('DBT_USER') }}"
       warehouse: WH_TEAM_8_M
+    prod:
+      account: "OHHGHHL-ZM06890"
+      database: DB_TEAM_8
+      password: "{{ env_var('DBT_PASSWORD') }}"
+      role: ROLE_TEAM_8
+      schema:  "PUBLIC"
+      threads: 1
+      type: snowflake
+      user: "{{ env_var('DBT_USER') }}"
+      warehouse: WH_TEAM_8_M
   target: dev
