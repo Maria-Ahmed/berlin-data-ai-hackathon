@@ -1,12 +1,17 @@
-# Snowflake CLI connection config
-# Copy to ~/.snowflake/connections.toml and fill in your details
+# Snowflake CLI connection config — Team 8
+#
+# SETUP:
+#   mkdir -p ~/.snowflake
+#   cp platforms/snowflake/connections.toml ~/.snowflake/connections.toml
+#   Then edit ~/.snowflake/connections.toml to fill in your password
+#   chmod 0600 ~/.snowflake/connections.toml
 #
 # Usage: snow sql -q "SELECT 1" -c hackathon
 
 [hackathon]
-account = "<ACCOUNT_ID>"
+account = "OHHGHHL-ZM06890"
 user = "<your-email>"
 password = "<your-password>"
-warehouse = "WH_TEAM_1_XS"
+warehouse = "WH_TEAM_8_M"
 database = "DB_JW_SHARED"
 schema = "CHALLENGE"
