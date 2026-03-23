@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_events
+    description: >
+      Cleaned, deduplicated events from T1 (Germany, Dec 2025).
+      JSON context fields extracted into typed columns.
+      Boolean flags for common event types. Engagement weight per event.
+    columns:
+      - name: rid
+        description: Unique event identifier (deduplicated)
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        description: Anonymous device/browser ID
+        tests:
+          - not_null
+      - name: session_id
+        description: Session identifier
+      - name: title_id
+        description: "JustWatch content ID (tm=movie, ts=show). FK to objects.object_id"
+      - name: provider_id
+        description: "Streaming provider ID. Only populated on clickout events. FK to packages.id"
+      - name: search_query
+        description: "User's search text. Sticky within session — present on events after a search."
+      - name: is_clickout
+        description: "True when se_category = 'clickout' (purchase intent signal)"
+      - name: engagement_weight
+        description: "Weighted signal: clickout=3, watchlist/like=2, interaction/pageview=1"

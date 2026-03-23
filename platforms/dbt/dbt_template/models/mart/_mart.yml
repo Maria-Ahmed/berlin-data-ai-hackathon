@@ -1,0 +1,246 @@
+version: 2
+
+models:
+  - name: dim_users
+    description: "User dimension: behavioral features + segment. 1 row per user."
+    meta:
+      joins:
+        - join: dim_providers
+          sql_on: ${dim_users.primary_provider_id} = ${dim_providers.provider_id}
+    columns:
+      - name: user_id
+        description: Anonymous device/browser ID
+        tests:
+          - unique
+          - not_null
+      - name: segment_name
+        description: "Behavioral segment: Deal Hunter, Cinephile, Binge Curator, Family Planner, Omnivore, Casual Scroller, Mainstream"
+        meta:
+          dimension:
+            type: string
+      - name: segment_id
+        meta:
+          dimension:
+            type: number
+      - name: primary_genre
+        meta:
+          dimension:
+            type: string
+      - name: primary_device
+        meta:
+          dimension:
+            type: string
+      - name: primary_monetization_type
+        meta:
+          dimension:
+            type: string
+      - name: total_events
+        meta:
+          metrics:
+            total_events_sum:
+              type: sum
+            avg_events_per_user:
+              type: average
+      - name: total_clickouts
+        meta:
+          metrics:
+            total_clickouts_sum:
+              type: sum
+      - name: total_engagement_score
+        meta:
+          metrics:
+            total_engagement_sum:
+              type: sum
+            avg_engagement_per_user:
+              type: average
+      - name: avg_imdb_score
+        meta:
+          metrics:
+            avg_imdb:
+              type: average
+      - name: genre_entropy
+        meta:
+          metrics:
+            avg_genre_entropy:
+              type: average
+
+  - name: dim_content
+    description: "Content dimension: movies and shows. 1 row per title."
+    columns:
+      - name: title_id
+        description: "JustWatch content ID"
+        tests:
+          - unique
+          - not_null
+      - name: title
+        meta:
+          dimension:
+            type: string
+      - name: object_type
+        meta:
+          dimension:
+            type: string
+      - name: primary_genre
+        meta:
+          dimension:
+            type: string
+      - name: release_year
+        meta:
+          dimension:
+            type: number
+      - name: original_language
+        meta:
+          dimension:
+            type: string
+      - name: imdb_score
+        meta:
+          metrics:
+            avg_imdb_score:
+              type: average
+            max_imdb_score:
+              type: max
+
+  - name: dim_providers
+    description: "Provider dimension: consolidated streaming platforms. 1 row per provider_id."
+    columns:
+      - name: provider_id
+        description: Original package ID
+        tests:
+          - unique
+          - not_null
+      - name: platform_name
+        description: "Consolidated platform (e.g. Amazon Prime Video)"
+        meta:
+          dimension:
+            type: string
+      - name: is_flatrate
+        meta:
+          dimension:
+            type: boolean
+      - name: is_free
+        meta:
+          dimension:
+            type: boolean
+
+  - name: fct_events
+    description: "Event fact table. 1 row per deduplicated event. FKs to dim_users, dim_content, dim_providers."
+    meta:
+      joins:
+        - join: dim_users
+          sql_on: ${fct_events.user_id} = ${dim_users.user_id}
+        - join: dim_content
+          sql_on: ${fct_events.title_id} = ${dim_content.title_id}
+        - join: dim_providers
+          sql_on: ${fct_events.provider_id} = ${dim_providers.provider_id}
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        meta:
+          dimension:
+            type: string
+            hidden: true
+      - name: se_category
+        meta:
+          dimension:
+            type: string
+      - name: device_class
+        meta:
+          dimension:
+            type: string
+      - name: app_locale
+        meta:
+          dimension:
+            type: string
+      - name: is_clickout
+        meta:
+          dimension:
+            type: boolean
+          metrics:
+            total_clickouts:
+              type: sum
+      - name: is_watchlist_add
+        meta:
+          metrics:
+            total_watchlist_adds:
+              type: sum
+      - name: is_search_session
+        meta:
+          dimension:
+            type: boolean
+      - name: engagement_weight
+        meta:
+          metrics:
+            total_engagement:
+              type: sum
+            avg_engagement:
+              type: average
+      - name: event_id
+        meta:
+          metrics:
+            event_count:
+              type: count
+            unique_users:
+              type: count_distinct
+              sql: ${fct_events.user_id}
+      - name: session_id
+        meta:
+          metrics:
+            unique_sessions:
+              type: count_distinct
+
+  - name: fct_sessions
+    description: "Session fact table. 1 row per user×session. Pre-aggregated from fct_events."
+    meta:
+      joins:
+        - join: dim_users
+          sql_on: ${fct_sessions.user_id} = ${dim_users.user_id}
+        - join: dim_providers
+          sql_on: ${fct_sessions.primary_provider_id} = ${dim_providers.provider_id}
+    columns:
+      - name: session_id
+        tests:
+          - not_null
+      - name: user_id
+        meta:
+          dimension:
+            type: string
+            hidden: true
+      - name: has_clickout
+        meta:
+          dimension:
+            type: boolean
+      - name: has_search
+        meta:
+          dimension:
+            type: boolean
+      - name: device_class
+        meta:
+          dimension:
+            type: string
+      - name: total_events
+        meta:
+          metrics:
+            total_events:
+              type: sum
+            avg_events_per_session:
+              type: average
+      - name: clickout_count
+        meta:
+          metrics:
+            total_clickouts:
+              type: sum
+      - name: engagement_score
+        meta:
+          metrics:
+            total_engagement:
+              type: sum
+            avg_engagement_per_session:
+              type: average
+      - name: distinct_titles
+        meta:
+          metrics:
+            avg_titles_per_session:
+              type: average

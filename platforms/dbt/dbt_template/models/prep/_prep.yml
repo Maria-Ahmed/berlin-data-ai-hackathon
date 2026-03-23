@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: prep_users
+    description: >
+      Per-user behavioral aggregates. 1 row per user_id.
+      Includes volume stats, diversity metrics, rates, quality taste, and genre entropy.
+    columns:
+      - name: user_id
+        description: Anonymous device/browser ID
+        tests:
+          - unique
+          - not_null
+
+  - name: prep_user_segments
+    description: >
+      User-to-segment assignment. 1 row per user_id.
+      Heuristic rule-based: Deal Hunter, Cinephile, Binge Curator, Family Planner, Omnivore, Casual Scroller, Mainstream.
+    columns:
+      - name: user_id
+        description: Anonymous device/browser ID
+        tests:
+          - unique
+          - not_null
+      - name: segment_id
+        description: "Segment assignment (1-7)"
+        tests:
+          - not_null
+      - name: segment_name
+        description: "Human-readable segment name"
+
+  - name: prep_content_pieces
+    description: >
+      Content metadata at movie/show level. Episodes and seasons filtered out.
+      1 row per top-level title.
+    columns:
+      - name: title_id
+        description: "JustWatch content ID (tm=movie, ts=show)"
+        tests:
+          - unique
+          - not_null
+
+  - name: prep_providers
+    description: >
+      Streaming provider lookup with consolidated platform names.
+      Amazon sub-brands merged, top 15 named, rest keep original name.
+    columns:
+      - name: provider_id
+        description: Original package ID
+        tests:
+          - unique
+          - not_null
+      - name: platform_name
+        description: Consolidated platform name (e.g. "Amazon Prime Video")

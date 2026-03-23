@@ -34,3 +34,12 @@ models:
     base:
       +materialized: view
       +schema: base
+    staging:
+      +materialized: view
+      +schema: staging
+    prep:
+      +materialized: table
+      +schema: prep
+    mart:
+      +materialized: table
+      +schema: mart
