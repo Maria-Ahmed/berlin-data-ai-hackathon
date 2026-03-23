@@ -1,0 +1,151 @@
+version: 2
+
+sources:
+  - name: challenge
+    database: DB_JW_SHARED
+    schema: CHALLENGE
+    tables:
+      - name: objects
+        identifier: OBJECTS
+        description: "Title and content metadata — movies, shows, seasons, episodes. ~13M rows."
+        columns:
+          - name: OBJECT_ID
+            description: "Unique object identifier. Prefixed: tm=movie, ts=show, tss=season, tse=episode"
+          - name: OBJECT_TYPE
+            description: "Type of object (movie, show, show_season, show_episode)"
+          - name: TITLE_ID
+            description: "Top-level title identifier (tm or ts prefix)"
+          - name: PARENT_ID
+            description: "Parent object ID — links episodes/seasons to parent titles"
+          - name: SHOW_SEASON_ID
+            description: "Season ID for episode objects"
+          - name: TITLE
+            description: "Title of the content"
+          - name: ORIGINAL_TITLE
+            description: "Original language title"
+          - name: TRANSLATED_TITLE
+            description: "Translated title"
+          - name: SHORT_DESCRIPTION
+            description: "Short text description of the content"
+          - name: OBJECT_TEXT_SHORT_DESCRIPTION
+            description: "Alternative short description text"
+          - name: OBJECT_TEXT_TRANSLATED_TITLE
+            description: "Alternative translated title text"
+          - name: RELEASE_YEAR
+            description: "Year of release"
+          - name: RELEASE_DATE
+            description: "Full release date"
+          - name: RUNTIME
+            description: "Runtime in minutes"
+          - name: ORIGINAL_LANGUAGE
+            description: "Original language code"
+          - name: GENRE_TMDB
+            description: "TMDB genre tags (ARRAY — use LATERAL FLATTEN to unnest)"
+          - name: PRODUCTION_COUNTRIES
+            description: "Production countries (ARRAY — use LATERAL FLATTEN to unnest)"
+          - name: PRODUCTION_BUDGET
+            description: "Production budget"
+          - name: SEASONS
+            description: "Number of seasons (for shows)"
+          - name: SEASON_NUMBER
+            description: "Season number (for season/episode objects)"
+          - name: EPISODES
+            description: "Number of episodes (for shows/seasons)"
+          - name: EPISODE_NUMBER
+            description: "Episode number (for episode objects)"
+          - name: EPISODES_PER_SEASON
+            description: "Episodes per season breakdown"
+          - name: IMDB_SCORE
+            description: "IMDB rating score"
+          - name: SCORING
+            description: "Scoring metadata"
+          - name: ID_IMDB
+            description: "IMDB identifier"
+          - name: ID_TMDB
+            description: "TMDB identifier"
+          - name: URL_IMDB
+            description: "IMDB URL"
+          - name: URL_TMDB
+            description: "TMDB URL"
+          - name: TALENT_CAST
+            description: "Cast members (ARRAY — use LATERAL FLATTEN to unnest)"
+          - name: TALENT_DIRECTOR
+            description: "Directors (ARRAY — use LATERAL FLATTEN to unnest)"
+          - name: TALENT_WRITER
+            description: "Writers"
+          - name: STUDIOS
+            description: "Production studios"
+          - name: POSTER_JW
+            description: "JustWatch poster URL"
+          - name: TRAILERS
+            description: "Trailer URLs/metadata"
+
+      - name: packages
+        identifier: PACKAGES
+        description: "Streaming provider lookup table. 1,526 rows."
+        columns:
+          - name: ID
+            description: "Provider ID — join to cc_clickout:providerId::NUMBER"
+          - name: TECHNICAL_NAME
+            description: "Technical/internal provider name"
+          - name: CLEAR_NAME
+            description: "Human-readable provider name"
+          - name: FULL_NAME
+            description: "Full official provider name"
+          - name: MONETIZATION_TYPES
+            description: "Supported monetization types (flatrate, rent, buy, etc.)"
+
+      - name: events
+        identifier: T1
+        description: "JustWatch user interactions — Germany only, December 2025. Web + mobile. Source: Snowplow atomic events filtered to title interactions."
+        columns:
+          - name: RID
+            description: "Row ID — use for deduplication instead of event_id"
+          - name: EVENT_ID
+            description: "Snowplow event identifier"
+          - name: COLLECTOR_TSTAMP
+            description: "Server-side UTC timestamp"
+          - name: DERIVED_TSTAMP
+            description: "Client clock drift adjusted timestamp"
+          - name: EVENT
+            description: "Event type: page_view or struct"
+          - name: USER_ID
+            description: "Anonymous user identifier"
+          - name: LOGIN_ID
+            description: "Logged-in user identifier (only when authenticated)"
+          - name: SESSION_ID
+            description: "Session identifier"
+          - name: SESSION_IDX
+            description: "Session index for the user"
+          - name: APP_ID
+            description: "Application identifier"
+          - name: PLATFORM
+            description: "Platform (web, mobile)"
+          - name: SE_CATEGORY
+            description: "Structured event category (e.g. clickout, userinteraction)"
+          - name: SE_ACTION
+            description: "Structured event action (e.g. flatrate, title_clicked)"
+          - name: SE_LABEL
+            description: "Structured event label"
+          - name: SE_PROPERTY
+            description: "Structured event property"
+          - name: SE_VALUE
+            description: "Structured event value"
+          - name: GEO_COUNTRY
+            description: "Geographic country code from IP"
+          - name: GEO_REGION_NAME
+            description: "Geographic region name"
+          - name: GEO_CITY
+            description: "Geographic city"
+          - name: USERAGENT
+            description: "Raw user agent string"
+          - name: CC_TITLE
+            description: "Content context (VARIANT) — jwEntityId, objectType, seasonNumber, episodeNumber"
+          - name: CC_PAGE_TYPE
+            description: "Page type context (VARIANT) — includes appLocale (user's chosen market)"
+          - name: CC_CLICKOUT
+            description: "Clickout context (VARIANT) — providerId, offer details. Only on clickout events."
+          - name: CC_YAUAA
+            description: "Parsed user agent context (VARIANT) — deviceClass, agentName, etc."
+          - name: CC_SEARCH
+            description: "Search context (VARIANT) — search query text"
