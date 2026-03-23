@@ -69,6 +69,16 @@ select
     case when se_category = 'userinteraction' then true else false end as is_interaction,
     case when se_category = 'youtube_started' then true else false end as is_trailer_play,
 
+    -- first clickout per session (for clean session→provider attribution)
+    case
+        when se_category = 'clickout'
+            then row_number() over (
+                partition by session_id, case when se_category = 'clickout' then 1 else 0 end
+                order by collector_tstamp
+            ) = 1
+        else false
+    end as is_first_clickout,
+
     -- engagement score (weighted signal strength)
     case
         when se_category = 'clickout' then 3

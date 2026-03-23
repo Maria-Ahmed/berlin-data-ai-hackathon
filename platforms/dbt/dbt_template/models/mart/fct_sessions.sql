@@ -28,9 +28,9 @@ session_agg as (
         count(distinct provider_id) as distinct_providers,
         count(distinct title_id) as distinct_titles,
 
-        -- primary attributes (mode per session)
-        mode(provider_id) as primary_provider_id,
-        mode(monetization_type) as primary_monetization_type,
+        -- provider attribution: first clickout only (clean 1:1 session→provider)
+        max(case when is_first_clickout then provider_id end) as first_clickout_provider_id,
+        max(case when is_first_clickout then monetization_type end) as first_clickout_monetization_type,
 
         -- search
         max(search_query) as last_search_query,

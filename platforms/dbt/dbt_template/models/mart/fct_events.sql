@@ -30,6 +30,7 @@ select
 
     -- boolean measures
     e.is_clickout,
+    e.is_first_clickout,
     e.is_watchlist_add,
     e.is_seenlist_add,
     e.is_like,
